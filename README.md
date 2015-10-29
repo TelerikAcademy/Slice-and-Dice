@@ -43,6 +43,11 @@ The course will follow the curriculum:
 
 ###  Advanced Web
 
+###  CSS Performance and Efficiency
+
+*   Selector efficiency
+*   Removing unused selectors
+
 ###  KendoUI Overview
 
 ###  Workshop: Advanced web and KendoUI
