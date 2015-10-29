@@ -1,73 +1,94 @@
-# Slice-and-Dice
-The **Slice and Dice** course will cover in details the means for producing the front-end of an web application, provided a design in PSD (Photoshop).
+# 
+The    **Slice and Dice** course will cover in details the means for producing the front-end of an web application, provided a design in PSD (Photoshop).
 
 The course will follow the curriculum:
 
 ##   Course Curriculum
 
-###  Introduction to the **Slice and Dice** course
+1.  Introduction to the    **Slice and Dice** course
 
-*  Trainers
-*  Course program
-*  Materials
-*  Homeworks
-*  Examination
+   *  Trainers
+   *  Course program
+   *  Materials
+   *  Homeworks
+   *  Examination
 
-###  Responsive Design
+1. HTML 
 
-###  Mobile-first web design
-
-###  Twitter Bootstrap
-
-###  Workshop: Responsive Design with Twitter Bootstrap
-
-###  Slice and Dice
-
-*   Slicing a PSD design to HTML, CSS and JS
-
-###  Workshop: Slice and Dice
-
-*   Slicing a PSD design to HTML, CSS and JS
-
-###  Support for older browsers
-
-*   `html5shiv`
-*   Modernizr
-*   Polyfills, shims, shivs
+   *  Semantics
 
 
-###  Using Third-party APIs
+1. CSS Methodologies
 
-*   Facebook
-*   Google
-*   YouTube
-*   etc...
+   *  BEM
+   *  SMACSS
+   *  OOCSS
 
-###  Advanced Web
+1.  Boostraping a project
 
-###  CSS Performance and Efficiency
+   *  Resetting
+   *  Normalizing
 
-*   Selector efficiency
-*   Removing unused selectors
+1.  CSS Recap
 
-###  KendoUI Overview
+1.  CSS Performance and Efficiency
 
-###  Workshop: Advanced web and KendoUI
+   *  Selector efficiency
+   *  Removing unused selectors
 
-###  Workshop: Project preparation
+1.  Preprocessors and Postprocessors
 
-*   Slicing a Design
-*   Implementing the logic
+1.  Front-end tools
+
+   *  Editors and IDEs
+   *  Browsers and Virtual machines
+   *  Gulp/Grunt
+   *  Jenkins
+   *  CSS linting
+
+1.  Responsive Web Design
+
+1.  Mobile-first web design
+
+1.  Twitter Bootstrap and other frameworks
+
+1.  Workshop: Responsive Design with Twitter Bootstrap
+
+1.  Slice and Dice
+
+   *   Slicing a PSD design to HTML, CSS and JS
+
+1.  Workshop: Slice and Dice
+
+   *   Slicing a PSD design to HTML, CSS and JS
+
+1. Using Third-party APIs
+
+   *   Facebook
+   *   Google
+   *   YouTube
+   *   etc...
+
+1.  Advanced Web
+
+1.  KendoUI Overview
+
+1.  Workshop: Advanced web and KendoUI
+
+1.  Workshop: Project preparation
+
+   *   Slicing a Design
+   *   Implementing the logic
 
 ##   Course Examination
 
 The course examination will consist of developing a front-end web application provided:
 
-*   A RESTful API
-*   A design in PSD
-*   A list of formal requirements
-   *  Using at least one third-party framework
-   *  Using Twitter Bootstrap
-   *  etc...
-
+   *   A RESTful API
+   *   A design in PSD
+   *   A list of formal requirements
+      *  Using at least one third-party framework
+      *  Using Twitter Bootstrap
+      *  etc...
+   *  Zero csslint errors
 
