@@ -15,6 +15,8 @@ The course will follow the curriculum:
 
 ###  Responsive Design
 
+###  Mobile-first web design
+
 ###  Twitter Bootstrap
 
 ###  Workshop: Responsive Design with Twitter Bootstrap
@@ -56,3 +58,16 @@ The course will follow the curriculum:
 
 *   Slicing a Design
 *   Implementing the logic
+
+##   Course Examination
+
+The course examination will consist of developing a front-end web application provided:
+
+*   A RESTful API
+*   A design in PSD
+*   A list of formal requirements
+   *  Using at least one third-party framework
+   *  Using Twitter Bootstrap
+   *  etc...
+
+
