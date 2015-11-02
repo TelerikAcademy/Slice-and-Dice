@@ -1,11 +1,11 @@
 # 
-The    **Slice and Dice** course will cover in details the means for producing the front-end of an web application, provided a design in PSD (Photoshop).
+The **Slice and Dice** course will cover in details the means for producing the front-end of an web application, provided a design in PSD (Photoshop).
 
 The course will follow the curriculum:
 
 ##   Course Curriculum
 
-1.  Introduction to the    **Slice and Dice** course
+###  Introduction to the    **Slice and Dice** course
 
    *  Trainers
    *  Course program
@@ -13,32 +13,31 @@ The course will follow the curriculum:
    *  Homeworks
    *  Examination
 
-1. HTML 
+### HTML 
 
    *  Semantics
 
+###  CSS Recap
 
-1. CSS Methodologies
+### CSS Methodologies
 
    *  BEM
    *  SMACSS
    *  OOCSS
 
-1.  Boostraping a project
+###  Boostraping a project
 
    *  Resetting
    *  Normalizing
 
-1.  CSS Recap
-
-1.  CSS Performance and Efficiency
+###  CSS Performance and Efficiency
 
    *  Selector efficiency
    *  Removing unused selectors
 
-1.  Preprocessors and Postprocessors
+###  Preprocessors and Postprocessors
 
-1.  Front-end tools
+###  Front-end tools
 
    *  Editors and IDEs
    *  Browsers and Virtual machines
@@ -46,36 +45,36 @@ The course will follow the curriculum:
    *  Jenkins
    *  CSS linting
 
-1.  Responsive Web Design
+###  Responsive Web Design
 
-1.  Mobile-first web design
+###  Mobile-first web design
 
-1.  Twitter Bootstrap and other frameworks
+###  Twitter Bootstrap and other frameworks
 
-1.  Workshop: Responsive Design with Twitter Bootstrap
+###  Workshop: Responsive Design with Twitter Bootstrap
 
-1.  Slice and Dice
-
-   *   Slicing a PSD design to HTML, CSS and JS
-
-1.  Workshop: Slice and Dice
+###  Slice and Dice
 
    *   Slicing a PSD design to HTML, CSS and JS
 
-1. Using Third-party APIs
+###  Workshop: Slice and Dice
+
+   *   Slicing a PSD design to HTML, CSS and JS
+
+### Using Third-party APIs
 
    *   Facebook
    *   Google
    *   YouTube
    *   etc...
 
-1.  Advanced Web
+###  Advanced Web
 
-1.  KendoUI Overview
+###  KendoUI Overview
 
-1.  Workshop: Advanced web and KendoUI
+###  Workshop: Advanced web and KendoUI
 
-1.  Workshop: Project preparation
+###  Workshop: Project preparation
 
    *   Slicing a Design
    *   Implementing the logic
