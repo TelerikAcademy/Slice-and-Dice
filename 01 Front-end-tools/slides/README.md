@@ -22,8 +22,10 @@
 - IDEs
   - JetBrains WebStorm
   - Visual Studio
+
 <!-- attr: { showInPresentation: true} -->
 <!-- # Table of Contents -->
+
 - Browsers and browser tools
   - Google Chrome/Canary
   - Mozilla Firefox/Nightly
