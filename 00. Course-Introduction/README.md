@@ -23,9 +23,9 @@
 
 <!--  section start -->
 
-<!-- attr: { class:'slide-section', id:'coming-next' } -->
-# Slice and Dice
-## The Next (Last) Module in the Software Academy
+<!-- attr: { class:'slide-section', id:'coming-next', showInPresentation: true } -->
+<!-- # Slice and Dice
+## The Next (Last) Module in the Software Academy -->
 
 <!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 
@@ -98,8 +98,8 @@
   - Delivering presentations since 2011
   - A **"definite guide"** for front-end development
 
-<!-- attr: {style: "font-size:40px", hasScriptWrapper: true} -->
-# The Trainers Team
+<!-- attr: {style: "font-size:40px", hasScriptWrapper: true, showInPresentation: true} -->
+<!-- # The Trainers Team -->
 
 <img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/nikolay-kostov.png" style="float:right" height="230" />
 
@@ -159,9 +159,9 @@
 
 <!--  section start -->
 
-<!-- attr: { id:'resources', class:'slide-section' } -->
-# Resources
-## Additional to this Course Content?
+<!-- attr: { id:'resources', class:'slide-section', showInPresentation: true } -->
+<!-- # Resources
+## Additional to this Course Content? -->
 
 # Course Web Site & Forums
 -	Register for the [Telerik Academy Forums](http://telerikacademy.com/Forum/Category/22/slice-and-dice-2015)

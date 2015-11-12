@@ -3,9 +3,13 @@ The **Slice and Dice** course will cover in details the means for producing the 
 
 The course will follow the curriculum:
 
+* PLUGIN_NAME
+ * Description
+ * Installation & Setup
+
 ##   Course Curriculum
 
-###  Introduction to the    **Slice and Dice** course
+###  Introduction to the **Slice and Dice** course
 
    *  Trainers
    *  Course program
@@ -13,9 +17,14 @@ The course will follow the curriculum:
    *  Homeworks
    *  Examination
 
+### Front-end tools
+*  Editors and IDEs
+*  CSS linting
+*  Browsers and Virtual machines
+
 ### HTML 
 
-   *  Semantics
+*  Semantics
 
 ###  CSS Recap
 
