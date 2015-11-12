@@ -1,4 +1,4 @@
-#№ Front-end Development Tools
+## Front-end Development Tools
 ### [View Presentation online](https://rawgit.com/TelerikAcademy/Slice-and-Dice/master/01%20Front-end-tools/slides/index.html)
 
 ### Table of Contents
