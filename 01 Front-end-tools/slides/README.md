@@ -36,9 +36,9 @@
 
 <!-- section start -->
 
-<!-- attr: {class: 'slide-section'} -->
-# Text Editors
-##  For front-end development
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Text Editors
+##  For front-end development -->
 
 # Text Editors
 
@@ -61,8 +61,8 @@
 - Easily extendable
   - If you know Python
 
-<!-- attr: {class: 'slide-section'} -->
-# Sublime Text 2/3
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Sublime Text 2/3 -->
 ##  Demo
 
 <!-- attr: {style: 'font-size: 42px'} -->
@@ -79,8 +79,8 @@
   - Define styles with CSS
   - Write plugins in JavaScript
 
-<!-- attr: {class: 'slide-section'} -->
-# Atom.io
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Atom.io -->
 ##  Demo
 
 # Visual Studio Code
@@ -91,8 +91,8 @@
 - Lots of built-in features
 - Fast and easy to use
 
-<!-- attr: {class: 'slide-section'} -->
-# Visual Studio Code
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Visual Studio Code -->
 ##  Demo
 
 # ViM
@@ -106,15 +106,15 @@
     - Markdown, JS, HTML, CSS, Python, Java, C++, etc...
 - A very high learning curve
 
-<!-- attr: {class: 'slide-section'} -->
-# ViM
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # ViM -->
 ##  Demo
 
 <!-- section start  -->
 
-<!-- attr: {class: 'slide-section'} -->
-# Integrated Development Environments
-##  For front-end development
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Integrated Development Environments
+##  For front-end development -->
 
 # JetBrains WebStom
 
@@ -125,8 +125,8 @@
 - Hard to extend and/or customizable
   - Not so many plugins
 
-<!-- attr: {class: 'slide-section'} -->
-# JetBrains WebStorm
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # JetBrains WebStorm -->
 ##  Demo
 
 <!-- attr: {style: 'font-size: 42px'} -->
@@ -141,15 +141,15 @@
 - Has a lot of plugins to customize your environment
 - Big and kind of slow for only HTML, CSS and JS
 
-<!-- attr: {class: 'slide-section'} -->
-# Visual Studio Code
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Visual Studio Code -->
 ##  Demo
 
 <!-- section start -->
 
-<!-- attr: {class: 'slide-section'} -->
-# Browsers
-##  And browser tools
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Browsers
+##  And browser tools -->
 
 # Browsers
 
@@ -163,18 +163,17 @@
     - Testing HTML/CSS
     - Etc..
 
-<!-- attr: {class: 'slide-section'} -->
-
-# Browsers
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Browsers -->
 ## [Demo](http://)
 
 <!-- section start  -->
 
-<!-- attr: {class: 'slide-section'} -->
-# Virtual machines
-##  Testing on different browsers and their versions
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Testing Web Applications
+##  Different browsers and their versions -->
 
-# Virtual machines
+# Testing Web Applications
 
 - Every front-end developer needs a lot of browsers
   - And their different versions
@@ -196,7 +195,7 @@
   - Guest OS Windows 7 (for IE 9)
   - Guest OS Windows 10 (for Edge)
 
-# Testing a web app on VMs
+# Steps for testing on VMs
 
 - The testing is done in the following steps:
   1.  Develop the app, using a random browser
@@ -204,7 +203,7 @@
   2.  Test this app on all the browsers on the VMs
     - If the app fails for any browser, return to **1.**
 
-# Testing a web app
+# Testing a web app with BrowserStack
 - Very good, still...
 - There are easier ways:
   - https://www.browserstack.com/
@@ -212,8 +211,8 @@
   - Paid
   - Has a free trial
 
-<!-- attr: {class: 'slide-section'} -->
-# Testing a web app on BrowserStack
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Testing a web app on BrowserStack -->
 ##  [Demo](http://)
 
 <!-- section start  -->
