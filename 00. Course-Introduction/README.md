@@ -90,8 +90,7 @@
 <img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/ivan-zhekov.jpg" style="float:right" height="230" />
 
 - **Ivan Zhekov**
-  - Front-end Architect
-  <br />@ Telerik (Progress)
+  - Front-end Architect @ Telerik (Progress)
   - Doing front-end development since 2003
   - In-depth knowledge of **HTML** and **CSS**
   - **JavaScript** Ninja
@@ -104,8 +103,7 @@
 <img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/nikolay-kostov.png" style="float:right" height="230" />
 
 - **Nikolay Kostov**
-  - Manager Software Engineering
-  <br />@ Telerik (Progress)
+  - Manager Software Engineering <br/>@ Telerik (Progress)
   - Microsoft Certified Trainer (MCT)
   - Champion from Telerik Academy
   - IT and Informatics competitions winner
