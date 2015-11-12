@@ -22,6 +22,8 @@
 - IDEs
   - JetBrains WebStorm
   - Visual Studio
+<!-- attr: { showInPresentation: true} -->
+<!-- # Table of Contents -->
 - Browsers and browser tools
   - Google Chrome/Canary
   - Mozilla Firefox/Nightly
@@ -32,9 +34,11 @@
   - Virtual machine with VirtualBox or VMWare workstation
   - BrowserStack
 
-<!--  section start -->
-
 <!-- section start -->
+
+<!-- attr: {class: 'slide-section'} -->
+# Text Editors
+##  For front-end development
 
 # Text Editors
 
@@ -55,16 +59,18 @@
   - Lots of plugins
 - Fast and easy to use
 - Easily extendable
-  - If you know python
+  - If you know Python
 
+<!-- attr: {class: 'slide-section'} -->
 # Sublime Text 2/3
 ##  Demo
 
+<!-- attr: {style: 'font-size: 42px'} -->
 # Atom.io
 
 - A hackable text editor
 - Free and open source
-- One of the primary tools for scripting languages and web
+- One of the primary tools for scripting languages and web development
   - HTML, CSS, JS, Python, Ruby, etc...
 - Highly customizable
   - Lots of plugins
@@ -73,6 +79,7 @@
   - Define styles with CSS
   - Write plugins in JavaScript
 
+<!-- attr: {class: 'slide-section'} -->
 # Atom.io
 ##  Demo
 
@@ -84,6 +91,7 @@
 - Lots of built-in features
 - Fast and easy to use
 
+<!-- attr: {class: 'slide-section'} -->
 # Visual Studio Code
 ##  Demo
 
@@ -98,12 +106,17 @@
     - Markdown, JS, HTML, CSS, Python, Java, C++, etc...
 - A very high learning curve
 
+<!-- attr: {class: 'slide-section'} -->
 # ViM
 ##  Demo
 
 <!-- section start  -->
 
-#   JetBrains WebStom
+<!-- attr: {class: 'slide-section'} -->
+# Integrated Development Environments
+##  For front-end development
+
+# JetBrains WebStom
 
 - Proprietary tool
   - Created by JetBrains
@@ -112,9 +125,11 @@
 - Hard to extend and/or customizable
   - Not so many plugins
 
+<!-- attr: {class: 'slide-section'} -->
 # JetBrains WebStorm
 ##  Demo
 
+<!-- attr: {style: 'font-size: 42px'} -->
 #   Visual Studio
 
 - Proprietary tool
@@ -126,18 +141,21 @@
 - Has a lot of plugins to customize your environment
 - Big and kind of slow for only HTML, CSS and JS
 
+<!-- attr: {class: 'slide-section'} -->
 # Visual Studio Code
 ##  Demo
 
 <!-- section start -->
 
+<!-- attr: {class: 'slide-section'} -->
 # Browsers
+##  And browser tools
 
 # Browsers
 
-- A set of browsers is essential to each front-end developer (really?!)
-- The mostly used are Google Chrome, Mozilla Firefox, MS Edge/IE, Apple Safari and Opera
-  - Each has different layout engine for HTML, CSS and JS
+- A set of browsers is essential to each front-end developer (you don't say...)
+- The mostly used are Chrome, Firefox, Edge/IE, Safari and Opera
+  - Different layout engine for HTML, CSS and JS
 - Each browser has their own development tools
   - Press **F12** to open it
   - Used for:
@@ -145,10 +163,16 @@
     - Testing HTML/CSS
     - Etc..
 
+<!-- attr: {class: 'slide-section'} -->
+
 # Browsers
-# [Demo](http://)
+## [Demo](http://)
 
 <!-- section start  -->
+
+<!-- attr: {class: 'slide-section'} -->
+# Virtual machines
+##  Testing on different browsers and their versions
 
 # Virtual machines
 
@@ -161,15 +185,16 @@
 - How can one have all the browsers?
   - Virtual machines
 
+<!-- attr: {showInPresentation: true} -->
 # Virtual machines
 
-- Example of VMs:
+- Example of front-ender's environment:
   - Host OS - Mac OS X (has Safari, Firefox and Chrome)
-  - Guest Windows XP (for IE 6)
-  - Second Guest Windows XP (for IE 7)
-  - Guest Windows 7 (for IE 8)
-  - Second Guest Windows 7 (for IE 9)
-  - Guest Windows 10 (for Edge)
+  - Guest OS Windows XP (for IE 6)
+  - Guest OS Windows XP (for IE 7)
+  - Guest OS Windows 7 (for IE 8)
+  - Guest OS Windows 7 (for IE 9)
+  - Guest OS Windows 10 (for Edge)
 
 # Testing a web app on VMs
 
@@ -177,7 +202,7 @@
   1.  Develop the app, using a random browser
     - Let's say Firefox
   2.  Test this app on all the browsers on the VMs
-    - If the app fails for any browser, return to 1
+    - If the app fails for any browser, return to **1.**
 
 # Testing a web app
 - Very good, still...
@@ -187,6 +212,7 @@
   - Paid
   - Has a free trial
 
+<!-- attr: {class: 'slide-section'} -->
 # Testing a web app on BrowserStack
 ##  [Demo](http://)
 
