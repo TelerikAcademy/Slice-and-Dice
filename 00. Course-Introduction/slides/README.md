@@ -95,7 +95,7 @@
   - In-depth knowledge of **HTML** and **CSS**
   - **JavaScript** Ninja
   - Delivering presentations since 2011
-  - A **"definite guide"** for front-end development
+  - A **"definitive guide"** for front-end development
 
 <!-- attr: {style: "font-size:40px", hasScriptWrapper: true, showInPresentation: true} -->
 <!-- # The Trainers Team -->
