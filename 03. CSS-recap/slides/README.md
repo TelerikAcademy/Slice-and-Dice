@@ -54,7 +54,7 @@
 
 - *Example:*
 
-```html
+```css
 font-style: italic;
 font-variant: normal;
 font-weight: bold;
@@ -64,7 +64,7 @@ font-family: verdana;
 ```
 
 - *Example:* Font with Shorthand property:
-```html
+```css
 font:italic normal bold 12px/16px verdana
 ```
 
@@ -94,7 +94,7 @@ font:italic normal bold 12px/16px verdana
 
 - *Example:*
 
-```html
+```css
 background-color: #FFF0C0;
 background-image: url("back.gif");
 background-repeat: no-repeat;
@@ -104,7 +104,7 @@ background-position: top;
 
 - Shorthand property for :
 
-```html
+```css
 background: #FFF0C0 url("back.gif") no-repeat fixed top;
 ```
 
