@@ -1,2 +1,2 @@
-## CSS Recap
-### [View Presentation online](https://rawgit.com/TelerikAcademy/Slice-and-Dice/master/03.%20CSS-recap/slides/index.html)
+## CSS Methodologies
+### [View Presentation online](https://rawgit.com/TelerikAcademy/Slice-and-Dice/master/04.%20CSS-Methodologies/slides/index.html)
