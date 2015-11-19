@@ -41,6 +41,8 @@
   - There should always be at least one generic font
 - `font-weight` can be `normal`, `bold`, `bolder`, `lighter` or a number in range `[100 … 900]`
 
+# Presentation Styles
+
 - `font-style` – styles the font
   - Values: `normal`, `italic`, `oblique`
 - `text-decoration` – decorates the text
@@ -48,7 +50,9 @@
 - `text-align` – defines the alignment of text or other content
   - Values: `left`, `right`, `center`, `justify`
 
-- Example:
+# Presentation Styles: Example
+
+- *Example:*
 
 ```html
 font-style: italic;
@@ -59,12 +63,13 @@ line-height: 16px;
 font-family: verdana;
 ```
 
-- Shorthand property:
+- *Example:* Font with Shorthand property:
 ```html
 font:italic normal bold 12px/16px verdana
 ```
 
-# Fonts
+<!-- attr: {class: 'slide-section'} -->
+# Font Properties
 ##  Demo
 
 # Background Properties
@@ -77,10 +82,15 @@ font:italic normal bold 12px/16px verdana
   - `repeat-x`, `repeat-y`, `repeat`, `no-repeat`
 - `background-attachment`
   - `fixed` / `scroll`
+
+# Background Properties
+
 - `background-position`: specifies vertical and horizontal position of the background image
   - Vertical position: `top`, `center`, `bottom`
   - Horizontal position: `left`, `center`, `right`
   - Both can be specified in percentage or other numerical values
+
+# Background positions: Example
 
 - *Example:*
 
@@ -92,18 +102,19 @@ background-attachment: fixed;
 background-position: top;
 ```
 
-- Shorthand property:
+- Shorthand property for :
 
 ```html
 background: #FFF0C0 url("back.gif") no-repeat fixed top;
 ```
 
+<!-- attr: {class: 'slide-section'} -->
 # Backgrounds
 ##  Demo
 
 <!-- section start  -->
 
-<!-- attr: { hasScriptWrapper:true, style:'' } -->
+<!-- attr: { class: 'slide-section', hasScriptWrapper:true, style:'' } -->
 # Positioning Styles
 ##  Fixed, absolute, relative
 
@@ -115,10 +126,11 @@ background: #FFF0C0 url("back.gif") no-repeat fixed top;
   - `absolute` – relative to the first parent element that has a  position other than static
   - `fixed` – relative to the browser window, but ignores page scrolling
 
+# Positioning Styles
 - `top`, `left`, `bottom`, `right`: specify the offset of absolute/fixed/relative positioned element as numerical values
 - `z-index` : specifies the stack level of positioned elements
 
-<!-- attr: { hasScriptWrapper:true, style:'' } -->
+<!-- attr: { class: 'slide-section', hasScriptWrapper:true, style:'' } -->
 # Positioning Styles
 ##  [Demo](http://)
 
@@ -128,6 +140,7 @@ background: #FFF0C0 url("back.gif") no-repeat fixed top;
 # Layout Styles
 ##  display, float, etc...
 
+<!-- attr: {style: 'font-size:40px'} -->
 # Layout Styles: Width and Height
 
 - `width` – defines numerical value for the width of element, e.g. `200px`
@@ -140,9 +153,11 @@ background: #FFF0C0 url("back.gif") no-repeat fixed top;
 - `max-width`/`max-height` - defines the maximal width/height
   - **Overrides** width/height if **max-* is higher**
 
+<!-- attr: {class: 'slide-section'} -->
 # Height and Width
 ##  [Demo](http://)
 
+<!-- attr: {style: 'font-size: 43px'} -->
 # Display
 
 - `display` controls the display of the element and the way it is rendered and if breaks should be placed before and after the element
@@ -152,17 +167,24 @@ background: #FFF0C0 url("back.gif") no-repeat fixed top;
     - `height` and `width` depend on the content
   - `block`:  breaks are placed before AND after the element (`<div>` is a block element)
     - `height` and `width` may not depend on the size of the content
-  - `none`: element is hidden and its dimensions are not used to calculate the surrounding elements rendering
-    - differs from `visibility: hidden`!
-  - `inline``-block`: no breaks are placed before and after (like inline)
-    - `height` and `width` can be applied (like block)
-  - `table`, `table-row`, `table-cell`: the elements are arranged in a table-like layout
-  - `flexbox`
 
+<!-- attr: {style: 'font-size: 43px'} -->
+# Display
+
+- `none`: element is hidden and its dimensions are not used to calculate the surrounding elements rendering
+    - differs from `visibility: hidden`!
+  - `inline-block`: no breaks are placed before and after (like inline)
+    - `height` and `width` can be applied (like block)
+- `table`, `table-row`, `table-cell`: the elements are arranged in a table-like layout
+- `flexbox`
+
+<!-- attr: {class: 'slide-section'} -->
 # Display
 ##  [Demo](http://)
 
+
 <!-- section start  -->
+
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
 <!-- # CSS Recap
 ##  Questions -->
