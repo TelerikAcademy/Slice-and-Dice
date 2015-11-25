@@ -6,29 +6,29 @@
 
 | Title                                                         | Day |  Date       | Trainer |
 | ------------------------------------------------------------- | --- | ----------- | ------- |
-| Couse Introduction                                            | Thu | 12 Oct 2015 | Doncho  |
-| HTML Recap and Semantics                                      | Thu | 12 Oct 2015 | 
-| CSS Recap                                                     | Thu | 12 Oct 2015 |
+| Course Introduction                                           | Thu | 12 Nov 2015 | Doncho  |
+| HTML Recap and Semantics                                      | Thu | 12 Nov 2015 | 
+| CSS Recap                                                     | Thu | 12 Nov 2015 |
 
 ### Week 2
 
 | Title                                                         | Day |  Date       | Trainer |
 | ------------------------------------------------------------- | --- | ----------- | ------- |
-| CSS Methodologies                                             | Thu | 19 Oct 2015 |
+| CSS Methodologies                                             | Thu | 19 Nov 2015 |
 
 ### Week 3
 
 | Title                                                         | Day |  Date       | Trainer |
 | ------------------------------------------------------------- | --- | ----------- | ------- |
-| CSS Performance and Efficiency                                | Thu | 19 Oct 2015 |
-| Boostraping a web project                                     | Thu | 19 Oct 2015 |
+| CSS Performance and Efficiency                                | Thu | 19 Nov 2015 |
+| Boostraping a web project                                     | Thu | 19 Nov 2015 |
 
 ### Week 3
 
 | Title                                                         | Day |  Date       | Trainer |
 | ------------------------------------------------------------- | --- | ----------- | ------- |
-| Front-end tools                                               | Thu | 26 Oct 2015 | Doncho  | 
-| CSS Preprocessors and Postprocessors                          | Thu | 26 Oct 2015 | Doncho  |
+| Front-end tools                                               | Thu | 26 Nov 2015 | Doncho  | 
+| CSS Preprocessors and Postprocessors                          | Thu | 26 Nov 2015 | Doncho  |
 
 ### Week 4
 
