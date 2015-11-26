@@ -19,22 +19,21 @@
   - What is a preprocessor?
   - Why we need preprocessors?
 - LESS, SASS and Stylus
-  - Installation
-  - Setup
-  - Tools
+  - Installation, setup and tools
 - LESS, SASS and Stylus Features
   - Selector nesting
+  - Mixins and selector inheritance
   - Operations
-  - Mixins
-  - Selector inheritance
-  - Operations
-  - Importing
   - Color functions
 
 
 <!-- section start -->
 
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
+# Preprocessors Overview
+##  For CSS
+
+<!-- attr: {style: 'font-size: 42px'} -->
 # Preprocessors Overview
 
 - A preprocessor is a program that processes its input data to produce output that is used as input to another program
@@ -48,20 +47,108 @@
 <!-- section start  -->
 
 <!-- attr: {class: "slide-section", id: 'stylus-installation'}  -->
+# CSS Preprocesors Setup
 
+<!-- attr: {style: 'font-size: 37px'}  -->
 # CSS Preprocesors Setup
 
 - Each preprocessor needs something to make it work
-  - Thankfully, all work through Node.js
+  - Thankfully, all work through **Node.js**
 
-    ```bash
-    npm install -g sass stylus less
-    ```
+  ```bash
+  npm install -g sass stylus less
+  ```
 
-  - To compile, use:
-    - Stylus ``stylus com
+  - Less:
 
+  ```bash
+  lessc FILE_NAME.LESS > FILE_NAME.css
+  ```
+
+  - Stylus:
+
+  ```bash
+  stylus FILE_NAME.styl
+  ```
+
+  - SASS:
+
+  ```bash
+  sass FILE_NAME.scss > FILE_NAME.css
+  ```
+
+<!-- attr: {class: 'slide-section'} -->
+# Installation and Setup
+##  [Demo](http://)
+
+<!-- section start -->
+
+<!-- attr: {class: 'slide-section'} -->
+# Selector Nesting
+##  In LESS, SASS and Stylus
+
+<!-- attr: {style: 'font-size: 42px'} -->
+# Selector Nesting
+
+- Selector nesting allows easier building of complex selectors:
+
+```css
+.nav { list-style-type; none; }
+.nav .nav-item { float: left; }
+.nav .nav-item:hover { background: skyblue; }
+```
+
+  - Can be done easier with LESS, SASS or Stylus:
+
+```css
+.nav {
+  list-style-type: none;
+  .nav-item {
+    float: left;
+    &:hover {
+      background: skyblue
+} } }
+```
+
+  - Stylus can omit the curly brackets and colons
+
+<!-- attr: {class: 'slide-section'} -->
+# Selector Nesting
+##  [Demo](http://)
+
+# Mixins
+##  Reusing CSS Code
+
+# Mixins
+
+- Mixins allow to create code that can be used multiple times
+  - They are like function to generate CSS
+
+- _Sample mixin (in Stylus):_
+
+```css
+stripe(even = #fff, odd = #eee)
+   tr
+     background-color odd
+     &.even
+     &:nth-child(even)
+       background-color even
+```
+
+- _Usage:_
+
+.grid .row {
+  stripe();
+}
+
+.list .item {
+  stripe (pink, blue)
+}
+```
+
+# Mixins
+##  [Demo](http://)
 
 <!-- attr: { class:'slide-questions', showInPresentation: true } -->
-<!-- # CSS Preprocessors
+<!-- # CSS Preprocessors -->
 ##  Questions -->
