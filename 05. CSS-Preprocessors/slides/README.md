@@ -116,12 +116,16 @@
 # Selector Nesting
 ##  [Demo](http://)
 
+<!-- section start -->
+
+<!-- attr: {class: 'slide-section'} -->
 # Mixins
 ##  Reusing CSS Code
 
+<!-- attr: {style: 'font-size: 40px'} -->
 # Mixins
 
-- Mixins allow to create code that can be used multiple times
+- Mixins allow to create code that can be reused
   - They are like function to generate CSS
 
 - _Sample mixin (in Stylus):_
@@ -130,25 +134,56 @@
 stripe(even = #fff, odd = #eee)
    tr
      background-color odd
-     &.even
-     &:nth-child(even)
+     &.even, &:nth-child(even)
        background-color even
 ```
 
 - _Usage:_
 
-.grid .row {
-  stripe();
-}
+```css
+.grid .row { stripe(); }
 
-.list .item {
-  stripe (pink, blue)
-}
+.list .item { stripe (pink, blue) }
 ```
 
+<!-- attr: {class: 'slide-section'} -->
 # Mixins
 ##  [Demo](http://)
 
+<!-- section start -->
+
+<!-- attr: {class: 'slide-section'} -->
+# Selector Inheritance
+
+<!-- attr: {style: 'font-size: 40px'}  -->
+# Selector Inheritance
+
+- Inheritance reduces the copy-pasting of properties and/or use multiple classes on an HTML element:
+
+- _Example (in SASS):_
+
+```css
+.btn {
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.btn-success {
+  @extend .btn;
+  background-color: green;
+}
+```
+
+<!-- attr: {class: 'slide-section'} -->
+# Selector Inheritance
+##  [Demo](http://)
+
+<!-- section start -->
+
 <!-- attr: { class:'slide-questions', showInPresentation: true } -->
 <!-- # CSS Preprocessors -->
-##  Questions -->
+##  Questions
