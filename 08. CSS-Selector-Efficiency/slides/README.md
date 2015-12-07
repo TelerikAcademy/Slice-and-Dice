@@ -97,6 +97,5 @@
 - **Use the most specific category possible**
   - i.e. use `.tree-cell-mailfolder`, instead of `.tree-item[mailfolder="true"] > .tree-row > .tree-cell`
 
-
 # CSS Selector Efficiency
 ##  Questions
