@@ -8,7 +8,6 @@
     <a href = "http://academy.telerik.com " class="signature-link">http://academy.telerik.com </a>
 </div>
 
-
 <!-- section start -->
 
 <!-- attr: { showInPresentation:true, style:'' } -->
@@ -24,38 +23,18 @@
 
 <!-- section start -->
 
+<!-- attr: {class: 'slide-section'} -->
 # Types of Selectors
+##  #id, .class, tag_name
 
 # Types of Selectors
 
 - CSS supports **4 primary** types of selectors:
-  - ID rules:
-
-  ```css
-  #selector { ... }
-  ```
-
-  - Class rules:
-
-  ```css
-  .selector { ...}
-  ```
-
-  - Tag rules:
-
-  ```css
-  button { ... }
-  ```
-
-  - Universal rules:
-
-  ```css
-  [hidden="true"] { ... }
-  [type="text"] { ... }
-  ```
-
+  - ID rules: ` #selector`
+  - Class rules: `.selector `
+  - Tag rules: `button, div, ul`
+  - Universal rules: `[hidden="true"], [type="text"]`
   - And they can be nested:
-
   ```css
   #header nav { ... }
   .tabs-control .tab { ... }
@@ -63,6 +42,7 @@
 
 <!-- section start -->
 
+<!-- attr: {class: 'slide-section'} -->
 # How are styles matched?
 ##  i.e. how the browsers search for the correct elements to style
 
@@ -78,9 +58,11 @@
 
 <!-- section start -->
 
+<!-- attr: {class: 'slide-section'} -->
 # Guidelines for efficient CSS
 ##  Good practices
 
+<!-- attr: {style: 'font-size:0.9em'} -->
 # Guidelines for efficient CSS
 
 - **Avoid universal rules**
@@ -90,12 +72,19 @@
   - i.e. `#main-menu.menu { ... }`
     - This selector will check the elements for the class `.main-menu` and then filter those that have an ID `main-menu`
   - `#main-menu` is enough, IDs are unique on an HTML page
+
+# Guidelines for efficient CSS
+
 - **Don't mix class rules with tag rules**
   - i.e. `td.grid-cell { ... }`
   - Same as the previous, find all `td` tags, then filter only those that have the class `grid-cell`
 
 - **Use the most specific category possible**
-  - i.e. use `.tree-cell-mailfolder`, instead of `.tree-item[mailfolder="true"] > .tree-row > .tree-cell`
+  - i.e. use `.tree-cell-mailfolder`
+    - instead of `.tree-item[mailfolder="true"] > .tree-row > .tree-cell`
 
+<!-- section start -->
+
+<!-- attr: {class: 'slide-questions'} -->
 # CSS Selector Efficiency
 ##  Questions
