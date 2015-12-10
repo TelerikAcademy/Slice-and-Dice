@@ -1,6 +1,13 @@
 <!-- section start -->
-<!-- attr: { class:'slide-title', showInPresentation:true, style:'' } -->
+
+<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Twitter Bootstrap
+##  Writing CSS easy
+<div class="signature">
+    <p class="signature-course">Slice and Dice</p>
+    <p class="signature-initiative">Telerik Software Academy</p>
+    <a href = "http://academy.telerik.com " class="signature-link">http://academy.telerik.com </a>
+</div>
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Table of Contents
@@ -50,7 +57,7 @@
 # Bootstrap 3.0
 ## Grid system options
 
-<!-- attr: {hashScriptWrapper: true} -->
+<!-- attr: {hasScriptWrapper: true} -->
 # Bootstrap Grid Example
 - _Example_
 
@@ -71,12 +78,12 @@
 <!-- # Bootstrap Grid -->
 ##  [Demo]()
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Bootstrap 3
 - Default Typography
   - Headings
   - Paragraphs (can add class .lead)
-  - <small>, <em>, <strong>
+  - `<small>`, `<em>`, `<strong>`
   - Built-in alignment classes
     - `.text-left`
     - `.text-center`
@@ -96,9 +103,9 @@
 <!-- # Bootstrap Typography -->
 ##  [Demo]()
 
-<!-- attr: { showInPresentation:true, style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper: true } -->
 # Bootstrap 3
-- Tables - on <table> elements
+- Tables - on `<table>` elements
   - `.table` – default table
   - `.table-striped` – every second row is colored
   - `.table-bordered` – adds border to a table
@@ -142,4 +149,4 @@
 
 <!-- attr: {class: 'slide-questions'} -->
 # Twitter Bootstrap
-- http://academy.telerik.com
+##  Questions
