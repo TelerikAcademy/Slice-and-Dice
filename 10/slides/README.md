@@ -334,9 +334,8 @@ margin: 20px auto;
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study
 - Example site design
-[http://pypt.org/]()
-<img src="img/image21.png">
-- TODO: placement
+<br>[http://pypt.org/]()
+<img src="img/image21.png" style="float:right" width="50%">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study: Text or Image
