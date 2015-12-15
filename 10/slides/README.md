@@ -26,7 +26,7 @@
 # From Image to XHTML+CSS
 ## Creating Web Sites Step by Step
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # From Image to XHTML+CSS
 - Steps for converting a Web site image to XHTML + CSS ( + JavaScript )
   - Decide on the layout type
@@ -43,7 +43,7 @@
   - Create the contents of each section
   - Test the site in different Web browsers
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Fixed vs. Fluid Layout
 - Page layout can be fixed or fluid
 - `Fixed width`
@@ -54,14 +54,14 @@
   - Beware of very large screens (e.g. 1920 x 1200)
   - Fix the `min-width` for the main `<div>`
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Identifying Site Sections
 - Typical Web sites consist of header, main section and footer
   - The main content usually has some main section, sidebars or navigation controls
   - The main section could be split in columns
 - TODO: table
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Frames vs. Table vs. DIVs?
 - Site layout with frames is old-fashioned
 - Using tables for columned design is incorrect!
@@ -72,7 +72,7 @@
   - When height is determined by content, background may not be applied properly
   - Footer must also be floating with `clear:left`
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Floating DIVs
 - Floating DIVs are not part of their parent DIV
   - Their height is the height of their content
@@ -83,7 +83,7 @@
 <!-- # Floating DIVs
 ## Live Demo -->
 
-<!-- attr: {}  -->
+<!-- attr: { hasScriptWrapper:true }  -->
 # DIVs Behaving Like Tables
 - `display:table` makes DIVs behave like table:
 
@@ -108,7 +108,7 @@
 <!-- # DIVs Behaving Like Tables
 ## Live Demo -->
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Vertical Alignment of DIV
 - Aligning a DIV vertically is a complex task
   - You need three nested `<div>` elements:
@@ -134,7 +134,7 @@
 <!-- # Vertical Alignment of DIVs
 ## Live Demo -->
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Distinguish between Content and Style
 - Separating content from presentation
   - The `HTML content` is the essential information published in the Web page, e.g. text + images
@@ -143,7 +143,7 @@
 - The presentation should live in the CSS
 - When the CSS is disabled, the site should look like an article with titles, lists and paragraphs
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # GIF, JPEG or PNG
 - GIF, JPEG and PNG are the three most common image formats in the Web
   - JPEG is used for large images, e.g. photos
@@ -154,7 +154,7 @@
     - GIF supports less colors than PNG
     - GIF supports animation
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Centering a Fixed-Width Site
 - Several ways to center the content of the site:
   - Placing it in `<center>` tag – deprecated
@@ -169,7 +169,7 @@ width: 900px;
 margin: 20px auto;
 ```
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Centering Site Contents – Example
 ```html
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -193,7 +193,7 @@ margin: 20px auto;
 <!-- # Centered Site Contents
 ## Live Demo -->
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Web Site Based on Frames
 - Web sites based on frames
   - Easy-to-develop
@@ -217,7 +217,7 @@ margin: 20px auto;
 <!-- # Web Site with Frames
 ## Live Demo -->
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Web Site Based on Tables
 - Web sites based on tables
   - Easy to layout the page elements
@@ -241,7 +241,7 @@ margin: 20px auto;
 <!-- # Web Site with Tables
 ## Live Demo -->
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Web Site Based on DIVs
 - Web sites based on DIVs
   - The best, semantically correct approach
@@ -267,12 +267,12 @@ margin: 20px auto;
 # Creating a Web Site
 ## Slice and Dice: Showcases
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Slice and Dice Showcase
 - We should convert the following image to XHTML+CSS:
 - TODO: img
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Layout and Style
 - Fixed width or fluid width?
   - Fixed width will work well
@@ -280,45 +280,45 @@ margin: 20px auto;
 - Frames, tables or DIVs?
   - DIVs with table layout will work best
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 - First step is to determine the parts of the design
 - TODO: img
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 - TODO: img and stuff
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 - TODO: img and stuff
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 - TODO: img and stuff
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 - TODO: img and stuff
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Step 2 – Which Parts are Image and Which HTML?
 - Use HTML when possible to avoid images
   - Images are slower to download and render
 - TODO: img
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Step 3 – The Small Details
 - Look for the small details and decide if they should be in CSS, HTML or image
 - TODO: img
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Case Study
 - Example site design
 [](http://pypt.org/)
 - TODO: img
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Case Study: Text or Image
 - Three ways to create the top part:
   - Use text over background image, absolute positioned DIVs 
@@ -326,7 +326,7 @@ margin: 20px auto;
   - Leave the text in the image
 - TODO: img
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Case Study: Two Backgrounds
 - To achieve the underline and the leaf image we can use only CSS. We need two tags:
   - Outer tag has the leaf as background image, padding-left so the inner doesn’t cover it
@@ -334,7 +334,7 @@ margin: 20px auto;
   - Note: the underline background image is 1px wide to save bandwidth!
 - TODO: img
 
-<!-- attr: {} -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Case Study: Rounded Corners
 - Rounded border corners are supported by CSS3
   - Not yet supported by most browsers
