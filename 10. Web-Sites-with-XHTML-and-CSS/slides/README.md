@@ -299,34 +299,34 @@ margin: 20px auto;
 - First step is to determine the parts of the design
 <img src="img/image20.png">
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Step 1 – Determine the Pieces
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # Step 1 – Determine the Pieces
 <img src="img/image20.png">
 <div class="balloon" style="position:absolute;top:8%;left:0%;opacity:0.7">This is the logo -<br>should be img tag</div>
 <div class="balloon" style="position:absolute;top:12%;left:30%;opacity:0.7">the site header - div</div>
-<div class="balloon" style="position:absolute;top:12%;left:55%;opacity:0.7">this can be background image</div>
+<div class="balloon" style="position:absolute;top:12%;left:55%;opacity:0.7">this can be background image</div> -->
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Step 1 – Determine the Pieces
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # Step 1 – Determine the Pieces
 <img src="img/image20.png">
 <div class="balloon" style="position:absolute;top:45%;left:0%;opacity:0.7">Menu cell</div>
 <div class="balloon" style="position:absolute;top:45%;left:30%;opacity:0.7">Body cell</div>
 <div class="balloon" style="position:absolute;top:45%;left:60%;opacity:0.7">Right cell</div>
 <div class="balloon" style="position:absolute;top:20%;left:20%;opacity:0.7">3 columns design<br>
-Best way is - tbale, one row, three cells</div>
+Best way is - tbale, one row, three cells</div> -->
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Step 1 – Determine the Pieces
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # Step 1 – Determine the Pieces
 <img src="img/image20.png">
-<div class="balloon" style="position:absolute;top:72%;left:35%;opacity:0.7">Footer - div, center the text with CSS</div>
+<div class="balloon" style="position:absolute;top:72%;left:35%;opacity:0.7">Footer - div, center the text with CSS</div> -->
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Step 1 – Determine the Pieces
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # Step 1 – Determine the Pieces
 <img src="img/image20.png">
 <div class="balloon" style="position:absolute;top:25%;left:15%;opacity:0.7">DIV with links (A tags)</div>
 <div class="balloon" style="position:absolute;top:35%;left:30%;opacity:0.7">Article headings<br>(H1 and H2 tags)</div>
 <div class="balloon" style="position:absolute;top:50%;left:0%;opacity:0.7">Unordered lists,<br>strong tags, links</div>
-<div class="balloon" style="position:absolute;top:60%;left:30%;opacity:0.7">Two separate lists in table or two floating divs</div>
+<div class="balloon" style="position:absolute;top:60%;left:30%;opacity:0.7">Two separate lists in table or two floating divs</div> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 2 – Which Parts are Image and Which HTML?
