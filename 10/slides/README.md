@@ -81,7 +81,7 @@
 - Floating DIVs are not part of their parent DIV
   - Their height is the height of their content
   - The parent container's height can be less
-<img src="img/table12.png">
+<img src="img/table1.png">
 - TODO: popups
 
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
