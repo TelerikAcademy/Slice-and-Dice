@@ -321,7 +321,7 @@ margin: 20px auto;
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study
 - Example site design
-[](http://pypt.org/)
+[http://pypt.org/]()
 - TODO: img
 
 <!-- attr: { hasScriptWrapper:true } -->
