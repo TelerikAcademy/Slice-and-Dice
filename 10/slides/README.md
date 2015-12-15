@@ -63,7 +63,7 @@
 - Typical Web sites consist of header, main section and footer
   - The main content usually has some main section, sidebars or navigation controls
   - The main section could be split in columns
-- TODO: table
+<img src="img/table1.png">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Frames vs. Table vs. DIVs?
@@ -81,7 +81,8 @@
 - Floating DIVs are not part of their parent DIV
   - Their height is the height of their content
   - The parent container's height can be less
-- TODO: img
+<img src="img/table12.png">
+- TODO: popups
 
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
 <!-- # Floating DIVs
@@ -281,7 +282,7 @@ margin: 20px auto;
 <!-- attr: { hasScriptWrapper:true } -->
 # Slice and Dice Showcase
 - We should convert the following image to XHTML+CSS:
-- TODO: img
+<img src="img/image19.png">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Layout and Style
@@ -294,41 +295,48 @@ margin: 20px auto;
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 - First step is to determine the parts of the design
-- TODO: img
+<img src="img/image20.png">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
-- TODO: img and stuff
+<img src="img/image20.png">
+- TODO: popups
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
-- TODO: img and stuff
+<img src="img/image20.png">
+- TODO: popups
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
-- TODO: img and stuff
+<img src="img/image20.png">
+- TODO: popups
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
-- TODO: img and stuff
+<img src="img/image20.png">
+- TODO: popups
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 2 – Which Parts are Image and Which HTML?
 - Use HTML when possible to avoid images
   - Images are slower to download and render
-- TODO: img
+<img src="img/image19.png">
+- TODO: popups
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 3 – The Small Details
 - Look for the small details and decide if they should be in CSS, HTML or image
-- TODO: img
+<img src="img/image19.png">
+- TODO: popups
 
 <!-- section start  -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study
 - Example site design
 [http://pypt.org/]()
-- TODO: img
+<img src="img/image21.png">
+- TODO: placement
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study: Text or Image
@@ -336,7 +344,7 @@ margin: 20px auto;
   - Use text over background image, absolute positioned DIVs 
   - Use table, slice the image to fit the needed rows and columns
   - Leave the text in the image
-- TODO: img
+<img src="img/image22.png">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study: Two Backgrounds
@@ -344,7 +352,7 @@ margin: 20px auto;
   - Outer tag has the leaf as background image, padding-left so the inner doesn’t cover it
   - Inner tag has the underline as background image, repeat-x, positioned in the bottom
   - Note: the underline background image is 1px wide to save bandwidth!
-- TODO: img
+<img src="img/image23.png">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study: Rounded Corners
@@ -353,7 +361,7 @@ margin: 20px auto;
       - But soon will be
   - We can create them with multiple images in table
       - Too much code
-- TODO: img
+<img src="img/image24.png">
 
 <!-- section start  -->
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
