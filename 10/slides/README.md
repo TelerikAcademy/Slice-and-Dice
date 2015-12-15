@@ -87,6 +87,7 @@
 <!-- # Floating DIVs
 ## Live Demo -->
 
+<!-- section start -->
 <!-- attr: { hasScriptWrapper:true }  -->
 # DIVs Behaving Like Tables
 - `display:table` makes DIVs behave like table:
@@ -112,6 +113,7 @@
 <!-- # DIVs Behaving Like Tables
 ## Live Demo -->
 
+<!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Vertical Alignment of DIV
 - Aligning a DIV vertically is a complex task
@@ -138,6 +140,7 @@
 <!-- # Vertical Alignment of DIVs
 ## Live Demo -->
 
+<!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Distinguish between Content and Style
 - Separating content from presentation
@@ -197,6 +200,7 @@ margin: 20px auto;
 <!-- # Centered Site Contents
 ## Live Demo -->
 
+<!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Web Site Based on Frames
 - Web sites based on frames
@@ -221,6 +225,7 @@ margin: 20px auto;
 <!-- # Web Site with Frames
 ## Live Demo -->
 
+<!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Web Site Based on Tables
 - Web sites based on tables
@@ -245,6 +250,7 @@ margin: 20px auto;
 <!-- # Web Site with Tables
 ## Live Demo -->
 
+<!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Web Site Based on DIVs
 - Web sites based on DIVs
