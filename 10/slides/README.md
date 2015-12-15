@@ -356,7 +356,7 @@ Best way is - tbale, one row, three cells</div>
   - Use text over background image, absolute positioned DIVs 
   - Use table, slice the image to fit the needed rows and columns
   - Leave the text in the image
-<img src="img/image22.png">
+<img src="img/image22.png" width="90%">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study: Two Backgrounds
