@@ -82,14 +82,17 @@
   - Their height is the height of their content
   - The parent container's height can be less
 <img src="img/image12.png">
-- TODO: popups
+<div class="balloon fragment" style="position:absolute;top:40%;left:6%">Floating left &lt;div&gt;</div>
+<div class="balloon fragment" style="position:absolute;top:40%;left:60%">Floating right &lt;div&gt;</div>
+<div class="balloon fragment" style="position:absolute;top:40%;left:32%">Non-floating &lt;div&gt;</div>
+<div class="balloon fragment" style="position:absolute;top:70%;left:32%">The container &lt;div&gt; has height based on its non-floating content</div>
 
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
 <!-- # Floating DIVs
 ## Live Demo -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true }  -->
+<!-- attr: { hasScriptWrapper:true, style:"font-size:44px" }  -->
 # DIVs Behaving Like Tables
 - `display:table` makes DIVs behave like table:
 
@@ -114,7 +117,6 @@
 <!-- # DIVs Behaving Like Tables
 ## Live Demo -->
 
-<!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Vertical Alignment of DIV
 - Aligning a DIV vertically is a complex task
@@ -133,9 +135,11 @@
 </div>
 ``` 
 ```html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/ xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/
+xhtml1-transitional.dtd">
 ```
-- TODO: popup
+<div class="balloon fragment" style="position:absolute;top:75%;left:40%">XHTML DOCTYPE is required, especially for IE!</div>
 
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
 <!-- # Vertical Alignment of DIVs
@@ -298,35 +302,46 @@ margin: 20px auto;
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 <img src="img/image20.png">
-- TODO: popups
+<div class="balloon" style="position:absolute;top:8%;left:0%">This is the logo -<br>should be img tag</div>
+<div class="balloon" style="position:absolute;top:12%;left:30%">the site header - div</div>
+<div class="balloon" style="position:absolute;top:12%;left:55%">this can be background image</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 <img src="img/image20.png">
-- TODO: popups
+<div class="balloon" style="position:absolute;top:45%;left:0%">Menu cell</div>
+<div class="balloon" style="position:absolute;top:45%;left:30%">Body cell</div>
+<div class="balloon" style="position:absolute;top:45%;left:60%">Right cell</div>
+<div class="balloon" style="position:absolute;top:20%;left:20%">3 columns design<br>
+Best way is - tbale, one row, three cells</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 <img src="img/image20.png">
-- TODO: popups
+<div class="balloon" style="position:absolute;top:72%;left:35%">Footer - div, center the text with CSS</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 <img src="img/image20.png">
-- TODO: popups
+<div class="balloon" style="position:absolute;top:25%;left:15%">DIV with links (A tags)</div>
+<div class="balloon" style="position:absolute;top:35%;left:30%">Article headings<br>(H1 and H2 tags)</div>
+<div class="balloon" style="position:absolute;top:50%;left:0%">Unordered lists,<br>strong tags, links</div>
+<div class="balloon" style="position:absolute;top:60%;left:30%">Two separate lists in table or two floating divs</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 2 – Which Parts are Image and Which HTML?
 - Use HTML when possible to avoid images
   - Images are slower to download and render
 <img src="img/image19.png">
-- TODO: popups
+<div class="balloon" style="position:absolute;top:46%;left:55%">Browsers do no support such<br>font and effects, so we have to<br>place this text using image</div>
+<div class="balloon" style="position:absolute;top:65%;left:10%">This bullets can be either CSS background<br>image or default list bullet</div>
+<div class="balloon" style="position:absolute;top:85%;left:60%">All elements backgrounds<br>and borders are solid so we<br>can use css colors instead of images</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 3 – The Small Details
 - Look for the small details and decide if they should be in CSS, HTML or image
 <img src="img/image19.png">
-- TODO: popups
+<div class="balloon" style="position:absolute;top:50%;left:55%">Example: this images have<br>border that should be defined<br>in the CSS, not part of the image</div>
 
 <!-- section start  -->
 <!-- attr: { hasScriptWrapper:true } -->
