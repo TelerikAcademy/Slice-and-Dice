@@ -360,7 +360,8 @@ margin: 20px auto;
       - But soon will be
   - We can create them with multiple images in table
       - Too much code
-<img src="img/image24.png">
+
+<img src="img/image24.png" width="50%">
 
 <!-- section start  -->
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
