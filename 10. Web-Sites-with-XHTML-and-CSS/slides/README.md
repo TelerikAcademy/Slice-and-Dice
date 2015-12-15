@@ -302,46 +302,46 @@ margin: 20px auto;
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 <img src="img/image20.png">
-<div class="balloon" style="position:absolute;top:8%;left:0%">This is the logo -<br>should be img tag</div>
-<div class="balloon" style="position:absolute;top:12%;left:30%">the site header - div</div>
-<div class="balloon" style="position:absolute;top:12%;left:55%">this can be background image</div>
+<div class="balloon" style="position:absolute;top:8%;left:0%;opacity:0.7">This is the logo -<br>should be img tag</div>
+<div class="balloon" style="position:absolute;top:12%;left:30%;opacity:0.7">the site header - div</div>
+<div class="balloon" style="position:absolute;top:12%;left:55%;opacity:0.7">this can be background image</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 <img src="img/image20.png">
-<div class="balloon" style="position:absolute;top:45%;left:0%">Menu cell</div>
-<div class="balloon" style="position:absolute;top:45%;left:30%">Body cell</div>
-<div class="balloon" style="position:absolute;top:45%;left:60%">Right cell</div>
-<div class="balloon" style="position:absolute;top:20%;left:20%">3 columns design<br>
+<div class="balloon" style="position:absolute;top:45%;left:0%;opacity:0.7">Menu cell</div>
+<div class="balloon" style="position:absolute;top:45%;left:30%;opacity:0.7">Body cell</div>
+<div class="balloon" style="position:absolute;top:45%;left:60%;opacity:0.7">Right cell</div>
+<div class="balloon" style="position:absolute;top:20%;left:20%;opacity:0.7">3 columns design<br>
 Best way is - tbale, one row, three cells</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 <img src="img/image20.png">
-<div class="balloon" style="position:absolute;top:72%;left:35%">Footer - div, center the text with CSS</div>
+<div class="balloon" style="position:absolute;top:72%;left:35%;opacity:0.7">Footer - div, center the text with CSS</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 <img src="img/image20.png">
-<div class="balloon" style="position:absolute;top:25%;left:15%">DIV with links (A tags)</div>
-<div class="balloon" style="position:absolute;top:35%;left:30%">Article headings<br>(H1 and H2 tags)</div>
-<div class="balloon" style="position:absolute;top:50%;left:0%">Unordered lists,<br>strong tags, links</div>
-<div class="balloon" style="position:absolute;top:60%;left:30%">Two separate lists in table or two floating divs</div>
+<div class="balloon" style="position:absolute;top:25%;left:15%;opacity:0.7">DIV with links (A tags)</div>
+<div class="balloon" style="position:absolute;top:35%;left:30%;opacity:0.7">Article headings<br>(H1 and H2 tags)</div>
+<div class="balloon" style="position:absolute;top:50%;left:0%;opacity:0.7">Unordered lists,<br>strong tags, links</div>
+<div class="balloon" style="position:absolute;top:60%;left:30%;opacity:0.7">Two separate lists in table or two floating divs</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 2 – Which Parts are Image and Which HTML?
 - Use HTML when possible to avoid images
   - Images are slower to download and render
 <img src="img/image19.png">
-<div class="balloon" style="position:absolute;top:46%;left:55%">Browsers do no support such<br>font and effects, so we have to<br>place this text using image</div>
-<div class="balloon" style="position:absolute;top:65%;left:10%">This bullets can be either CSS background<br>image or default list bullet</div>
-<div class="balloon" style="position:absolute;top:85%;left:60%">All elements backgrounds<br>and borders are solid so we<br>can use css colors instead of images</div>
+<div class="balloon" style="position:absolute;top:46%;left:55%;opacity:0.7">Browsers do no support such<br>font and effects, so we have to<br>place this text using image</div>
+<div class="balloon" style="position:absolute;top:65%;left:10%;opacity:0.7">This bullets can be either CSS background<br>image or default list bullet</div>
+<div class="balloon" style="position:absolute;top:80%;left:60%;opacity:0.7">All elements backgrounds<br>and borders are solid so we<br>can use css colors instead of images</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 3 – The Small Details
 - Look for the small details and decide if they should be in CSS, HTML or image
 <img src="img/image19.png">
-<div class="balloon" style="position:absolute;top:50%;left:55%">Example: this images have<br>border that should be defined<br>in the CSS, not part of the image</div>
+<div class="balloon" style="position:absolute;top:50%;left:55%;opacity:0.7">Example: this images have<br>border that should be defined<br>in the CSS, not part of the image</div>
 
 <!-- section start  -->
 <!-- attr: { hasScriptWrapper:true } -->
