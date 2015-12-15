@@ -226,7 +226,6 @@ margin: 20px auto;
 <!-- # Web Site with Frames
 ## Live Demo -->
 
-<!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Web Site Based on Tables
 - Web sites based on tables
@@ -251,7 +250,6 @@ margin: 20px auto;
 <!-- # Web Site with Tables
 ## Live Demo -->
 
-<!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Web Site Based on DIVs
 - Web sites based on DIVs
