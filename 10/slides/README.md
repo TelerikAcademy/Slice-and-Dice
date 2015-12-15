@@ -36,6 +36,10 @@
     - Header, main, footer, columns, navigation, etc.
   - Decide on the layout model
     - DIVs vs. tables (any good reason to use tables?)
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # From Image to XHTML+CSS
+- Steps for converting a Web site image to XHTML + CSS ( + JavaScript ) -->
   - Distinguish between content and style
     - Text vs. images – which belongs to the content and which is part of the styling?
   - Create the page layout
@@ -263,6 +267,7 @@ margin: 20px auto;
 <!-- # Web Site with DIVs
 ## Live Demo -->
 
+<!-- section start  -->
 <!-- attr: {class:'slide-section'} -->
 # Creating a Web Site
 ## Slice and Dice: Showcases
@@ -312,6 +317,7 @@ margin: 20px auto;
 - Look for the small details and decide if they should be in CSS, HTML or image
 - TODO: img
 
+<!-- section start  -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study
 - Example site design
