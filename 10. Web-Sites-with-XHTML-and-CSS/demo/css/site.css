@@ -1,0 +1,137 @@
+#sitemap ul, .my-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+#footer, #sitemap, #header {
+  padding-top: .5em;
+  padding-bottom: .5em; }
+
+#footer {
+  color: #fff;
+  background: #2f535b; }
+  #footer a {
+    color: inherit;
+    background: none; }
+    #footer a:hover {
+      text-decoration: underline; }
+  #footer .my-nav li + li:before {
+    content: "|";
+    margin: 0 3px;
+    display: inline-block;
+    vertical-align: middle; }
+  #footer .copy {
+    margin: 0;
+    text-align: right; }
+
+#sitemap {
+  margin-top: 50px;
+  color: white;
+  background: #457a86; }
+  #sitemap h6 {
+    margin-top: 0;
+    font: inherit;
+    text-transform: uppercase; }
+  #sitemap a {
+    color: inherit; }
+    #sitemap a:hover {
+      text-decoration: underline; }
+
+#header {
+  background: black;
+  color: #ffffff; }
+  #header #logo {
+    margin: 0;
+    font: inherit;
+    font-weight: bold;
+    text-transform: uppercase; }
+    #header #logo span {
+      font-weight: normal; }
+    #header #logo span:before {
+      content: "";
+      margin: 0 5px 0 0;
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      border-radius: 100%;
+      border: 3px solid #2f535b;
+      position: relative;
+      top: 1px; }
+  #header .user-nav {
+    text-align: right; }
+  #header .my-nav {
+    display: inline-block; }
+    #header .my-nav li + li {
+      margin-left: 10px; }
+    #header .my-nav .badge {
+      opacity: .8; }
+
+#nav {
+  color: white;
+  background: #2f535b; }
+  #nav .navbar {
+    margin: 0;
+    border-radius: 0;
+    border: 0; }
+  #nav a {
+    color: inherit; }
+    #nav a:hover {
+      text-decoration: underline;
+      background: none; }
+  #nav .form-group {
+    position: relative; }
+    #nav .form-group > .glyphicon {
+      position: absolute;
+      right: .5em;
+      top: .75em; }
+  #nav input[type="search"] {
+    box-shadow: none;
+    border: 0;
+    color: white;
+    background: #457a86; }
+
+#carousel {
+  background: black;
+  height: 300px; }
+  #carousel:before {
+    display: none; }
+  #carousel > .slide {
+    background: black url("../img/kratko.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    float: none; }
+
+.home-page #nav {
+  background: rgba(47, 83, 91, 0.5);
+  position: relative;
+  z-index: 2; }
+.home-page #nav + #carousel {
+  margin-top: -50px;
+  position: relative;
+  z-index: 1; }
+
+.my-nav > li {
+  display: inline-block;
+  vertical-align: middle; }
+
+.promo-gallery {
+  margin-top: 50px; }
+  .promo-gallery > section {
+    height: 200px;
+    text-align: center;
+    position: relative;
+    background: black url("../img/kratko.jpg") no-repeat;
+    background-size: cover;
+    background-clip: content-box; }
+    .promo-gallery > section > div {
+      position: absolute;
+      width: 100%;
+      bottom: 1em; }
+
+.btn-primary {
+  color: white;
+  border: 0;
+  background: #457a86;
+  box-shadow: 0 2px 0 0 #2f535b; }
+
+/*# sourceMappingURL=site.css.map */

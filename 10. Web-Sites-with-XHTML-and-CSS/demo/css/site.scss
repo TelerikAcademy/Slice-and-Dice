@@ -1,0 +1,211 @@
+$light: rgb(69, 122, 134);
+$dark: rgb(47, 83, 91);
+
+%reset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+%padding {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+#footer {
+	@extend %padding;
+	color: #fff;
+	background: $dark;
+
+	a {
+		color: inherit;
+		background: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.my-nav {
+		li + li:before {
+			content: "|";
+			margin: 0 3px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+
+	.copy {
+		margin: 0;
+		text-align:right;
+	}
+}
+
+
+#sitemap {
+	@extend %padding;
+	margin-top: 50px;
+	color: white;
+	background: $light;
+
+	h6 {
+		margin-top: 0;
+		font: inherit;
+		text-transform: uppercase;
+	}
+
+	ul {
+		@extend %reset;
+	}
+	a {
+		color: inherit;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+
+#header {
+	@extend %padding;
+	background: black;
+	color: #ffffff;
+
+	#logo {
+		margin: 0;
+		font: inherit;
+		font-weight: bold;
+		text-transform: uppercase;
+
+		span {
+			font-weight: normal;
+		}
+		span:before {
+			content: "";
+			margin: 0 5px 0 0;
+			display: inline-block;
+			width: 1em;
+			height: 1em;
+			border-radius: 100%;
+			border: 3px solid $dark;
+			position: relative;
+			top: 1px;
+		}
+	}
+
+	.user-nav {
+		text-align: right;
+	}
+	.my-nav {
+		display: inline-block;
+
+		li + li {
+			margin-left: 10px;
+		}
+
+		.badge {
+			opacity: .8;
+		}
+	}
+}
+
+#nav {
+	color: white;
+	background: $dark;
+
+	.navbar {
+		margin: 0;
+		border-radius: 0;
+		border: 0;
+	}
+
+	a {
+		color: inherit;
+
+		&:hover {
+			text-decoration: underline;
+			background: none;
+		}
+	}
+
+	.form-group {
+		position: relative;
+
+		> .glyphicon {
+			position: absolute;
+			right: .5em;
+			top: .75em;
+		}
+	}
+	input[type="search"] {
+		box-shadow: none;
+		border: 0;
+		color: white;
+		background: $light;
+	}
+}
+
+#carousel {
+	background: black;
+	height: 300px;
+
+	&:before {
+		display: none;
+	}
+
+	> .slide {
+		background: black url("../img/kratko.jpg") no-repeat;
+		background-size: 100% 100%;
+		height: 300px;
+		float: none;
+	}
+}
+
+.home-page {
+	#nav {
+		background: rgba( $dark, .5 );
+		position: relative;
+		z-index: 2;
+	}
+	#nav + #carousel {
+		margin-top: -50px;
+		position: relative;
+		z-index: 1;
+	}
+}
+
+.my-nav {
+	@extend %reset;
+
+	> li {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+.promo-gallery {
+	margin-top: 50px;
+
+	> section {
+		height: 200px;
+		text-align: center;
+		position: relative;
+		background: black url("../img/kratko.jpg") no-repeat;
+		background-size: cover;
+		background-clip: content-box;
+
+		> div {
+			position: absolute;
+			width: 100%;
+			bottom: 1em;
+		}
+	}
+}
+
+
+.btn-primary {
+	color: white;
+	border: 0;
+	background: $light;
+	box-shadow: 0 2px 0 0 $dark;
+}
