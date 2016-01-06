@@ -1,0 +1,5 @@
+ChameleonPSD.zip filter=lfs diff=lfs merge=lfs -text
+EnvisionedPSD.zip filter=lfs diff=lfs merge=lfs -text
+MyCuisinePSD.zip filter=lfs diff=lfs merge=lfs -text
+TheStylePSD.zip filter=lfs diff=lfs merge=lfs -text
+WeblyPSD.zip filter=lfs diff=lfs merge=lfs -text
