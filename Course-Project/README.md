@@ -28,7 +28,7 @@ It could be a simple game , component library , business application or any othe
 ##  General Requirements
 Please define and implement the following assets in your project:
 - Slice the given design in PSD (33 points)
-  - You can find your selected design [here](http://)
+  - You can find your selected design [here](PSDs.md)
 - Implement responsive design (34 points)
   - Your web application must look good on any resolution
 - Use a web server (33 points)
