@@ -6,7 +6,7 @@ This document describes the teamwork assignment for Telerik Academy students in 
 
 Design and implement an **SPA application** by choice.
 
-It could be a simple game , component library , business application or any other
+It could be a simple game, component library, business application or any other
 -   You are absolutely free to choose the topic of your work
 -   Sample applications:
     -   Snake
@@ -16,7 +16,7 @@ It could be a simple game , component library , business application or any othe
     -   Tetris
     -   Xonix
     -   Supermario
-    -   Components library(windows, buttons, text boxes, menus, etc.)
+    -   Components library (windows, buttons, text boxes, menus, etc.)
     -   Book store
     -   Auction
     -   Movie rental
@@ -41,7 +41,7 @@ Please define and implement the following assets in your project:
       - Not just an array of integers
       - _Examples:_
         - Forum with threads, categories, tags, users, user roles, search, comments, likes, etc...
-        - Blog with posts,  categories, tags, users, search, comments, likes, etc...
+        - Blog with posts, categories, tags, users, search, comments, likes, etc...
         - Online store with products, categories, prices, filtering, search, etc...
   **The application must work in the latest versions of the browsers: Google Chrome, Mozilla Firefox, Internet Explorer 10/11, Opera and Apple Safari**
 
