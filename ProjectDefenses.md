@@ -1,4 +1,5 @@
 # Course project defenses
+## Date: 13 February 2016 - Enterprise
 
 ## Trainer 1
 |Num | Username	        |Start hour|
