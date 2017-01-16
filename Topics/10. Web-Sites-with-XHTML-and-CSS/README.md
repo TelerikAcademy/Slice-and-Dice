@@ -63,7 +63,7 @@
 - Typical Web sites consist of header, main section and footer
   - The main content usually has some main section, sidebars or navigation controls
   - The main section could be split in columns
-<img src="img/table1.png">
+<img src="imgs/table1.png">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Frames vs. Table vs. DIVs?
@@ -81,7 +81,7 @@
 - Floating DIVs are not part of their parent DIV
   - Their height is the height of their content
   - The parent container's height can be less
-<img src="img/image12.png">
+<img src="imgs/image12.png">
 <div class="balloon fragment" style="position:absolute;top:40%;left:6%">Floating left &lt;div&gt;</div>
 <div class="balloon fragment" style="position:absolute;top:40%;left:60%">Floating right &lt;div&gt;</div>
 <div class="balloon fragment" style="position:absolute;top:40%;left:32%">Non-floating &lt;div&gt;</div>
@@ -284,7 +284,7 @@ margin: 20px auto;
 <!-- attr: { hasScriptWrapper:true } -->
 # Slice and Dice Showcase
 - We should convert the following image to XHTML+CSS:
-<img src="img/image19.png">
+<img src="imgs/image19.png">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Layout and Style
@@ -297,18 +297,18 @@ margin: 20px auto;
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 1 – Determine the Pieces
 - First step is to determine the parts of the design
-<img src="img/image20.png">
+<img src="imgs/image20.png">
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # Step 1 – Determine the Pieces
-<img src="img/image20.png">
+<img src="imgs/image20.png">
 <div class="balloon" style="position:absolute;top:8%;left:0%;opacity:0.7">This is the logo -<br>should be img tag</div>
 <div class="balloon" style="position:absolute;top:12%;left:30%;opacity:0.7">the site header - div</div>
 <div class="balloon" style="position:absolute;top:12%;left:55%;opacity:0.7">this can be background image</div> -->
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # Step 1 – Determine the Pieces
-<img src="img/image20.png">
+<img src="imgs/image20.png">
 <div class="balloon" style="position:absolute;top:45%;left:0%;opacity:0.7">Menu cell</div>
 <div class="balloon" style="position:absolute;top:45%;left:30%;opacity:0.7">Body cell</div>
 <div class="balloon" style="position:absolute;top:45%;left:60%;opacity:0.7">Right cell</div>
@@ -317,12 +317,12 @@ Best way is - tbale, one row, three cells</div> -->
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # Step 1 – Determine the Pieces
-<img src="img/image20.png">
+<img src="imgs/image20.png">
 <div class="balloon" style="position:absolute;top:72%;left:35%;opacity:0.7">Footer - div, center the text with CSS</div> -->
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # Step 1 – Determine the Pieces
-<img src="img/image20.png">
+<img src="imgs/image20.png">
 <div class="balloon" style="position:absolute;top:25%;left:15%;opacity:0.7">DIV with links (A tags)</div>
 <div class="balloon" style="position:absolute;top:35%;left:30%;opacity:0.7">Article headings<br>(H1 and H2 tags)</div>
 <div class="balloon" style="position:absolute;top:50%;left:0%;opacity:0.7">Unordered lists,<br>strong tags, links</div>
@@ -332,7 +332,7 @@ Best way is - tbale, one row, three cells</div> -->
 # Step 2 – Which Parts are Image and Which HTML?
 - Use HTML when possible to avoid images
   - Images are slower to download and render
-<img src="img/image19.png">
+<img src="imgs/image19.png">
 <div class="balloon" style="position:absolute;top:46%;left:55%;opacity:0.7">Browsers do no support such<br>font and effects, so we have to<br>place this text using image</div>
 <div class="balloon" style="position:absolute;top:65%;left:10%;opacity:0.7">This bullets can be either CSS background<br>image or default list bullet</div>
 <div class="balloon" style="position:absolute;top:80%;left:60%;opacity:0.7">All elements backgrounds<br>and borders are solid so we<br>can use css colors instead of images</div>
@@ -340,7 +340,7 @@ Best way is - tbale, one row, three cells</div> -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Step 3 – The Small Details
 - Look for the small details and decide if they should be in CSS, HTML or image
-<img src="img/image19.png">
+<img src="imgs/image19.png">
 <div class="balloon" style="position:absolute;top:50%;left:55%;opacity:0.7">Example: this images have<br>border that should be defined<br>in the CSS, not part of the image</div>
 
 <!-- section start  -->
@@ -348,7 +348,7 @@ Best way is - tbale, one row, three cells</div> -->
 # Case Study
 - Example site design
 <br>[http://pypt.org/]()
-<img src="img/image21.png" style="float:right" width="50%">
+<img src="imgs/image21.png" style="float:right" width="50%">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study: Text or Image
@@ -356,7 +356,7 @@ Best way is - tbale, one row, three cells</div> -->
   - Use text over background image, absolute positioned DIVs 
   - Use table, slice the image to fit the needed rows and columns
   - Leave the text in the image
-<img src="img/image22.png" width="90%">
+<img src="imgs/image22.png" width="90%">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study: Two Backgrounds
@@ -364,7 +364,7 @@ Best way is - tbale, one row, three cells</div> -->
   - Outer tag has the leaf as background image, padding-left so the inner doesn’t cover it
   - Inner tag has the underline as background image, repeat-x, positioned in the bottom
   - Note: the underline background image is 1px wide to save bandwidth!
-<img src="img/image23.png">
+<img src="imgs/image23.png">
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Case Study: Rounded Corners
@@ -374,7 +374,7 @@ Best way is - tbale, one row, three cells</div> -->
   - We can create them with multiple images in table
       - Too much code
 
-<img src="img/image24.png" width="50%">
+<img src="imgs/image24.png" width="50%">
 
 <!-- section start  -->
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
