@@ -1,6 +1,6 @@
-# Requirements for the Slice and Dice course project
+# Requirements for the "Web front-end develeopment" course project
 
-This document describes the teamwork assignment for Telerik Academy students in "Slice and Dice" course
+This document describes the final project assignment for Telerik Academy students in "Web front-end develeopment" course
 
 # Project Description
 
