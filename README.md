@@ -1,15 +1,11 @@
-# 
-The **Slice and Dice** course will cover in details the means for producing the front-end of an web application, provided a design in PSD (Photoshop).
+## The **Slice and Dice** course will cover in details the means for producing the front-end of an web application, provided a design in PSD (Photoshop).
 
 The course will follow the curriculum:
 
-* PLUGIN_NAME
- * Description
- * Installation & Setup
 
 ##   Course Curriculum
 
-###  Introduction to the **Slice and Dice** course
+###  Course Introduction
 
    *  Trainers
    *  Course program
@@ -22,22 +18,9 @@ The course will follow the curriculum:
 *  CSS linting
 *  Browsers and Virtual machines
 
-### HTML 
-
-*  Semantics
+### HTML Semantics
 
 ###  CSS Recap
-
-### CSS Methodologies
-
-   *  BEM
-   *  SMACSS
-   *  OOCSS
-
-###  Boostraping a project
-
-   *  Resetting
-   *  Normalizing
 
 ###  CSS Performance and Efficiency
 
@@ -46,29 +29,33 @@ The course will follow the curriculum:
 
 ###  Preprocessors and Postprocessors
 
-###  Front-end tools
+### Task Runners
 
-   *  Editors and IDEs
-   *  Browsers and Virtual machines
-   *  Gulp/Grunt
-   *  Jenkins
-   *  CSS linting
+   * Grunt
+   * Gulp
 
 ###  Responsive Web Design
 
 ###  Mobile-first web design
 
-###  Twitter Bootstrap and other frameworks
+### Workshop
 
-###  Workshop: Responsive Design with Twitter Bootstrap
+### Twitter Bootstrap / Foundation by Zurb
 
-###  Slice and Dice
 
-   *   Slicing a PSD design to HTML, CSS and JS
+### CSS Methodologies
 
-###  Workshop: Slice and Dice
+   *  BEM
+   *  SMACSS
+   *  OOCSS
 
-   *   Slicing a PSD design to HTML, CSS and JS
+### Front-end Architecture / Boostraping a project
+
+   *  Resetting
+   *  Normalizing
+
+
+### Front-end JS Libraries
 
 ### Using Third-party APIs
 
@@ -77,16 +64,15 @@ The course will follow the curriculum:
    *   YouTube
    *   etc...
 
-###  Advanced Web
+### BaaS Cloud
 
-###  KendoUI Overview
+###  Slice and Dice - part 1
 
-###  Workshop: Advanced web and KendoUI
+   *   Slicing a PSD design to HTML, CSS and JS
 
-###  Workshop: Project preparation
+###  Slice and Dice - part 2
 
-   *   Slicing a Design
-   *   Implementing the logic
+   *   Slicing a PSD design to HTML, CSS and JS
 
 ##   Course Examination
 

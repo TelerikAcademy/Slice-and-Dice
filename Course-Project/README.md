@@ -57,21 +57,19 @@ Follow the best practices for producing high-quality code:
 - Using **good practices for CSS**
   - Efficiency, naming, etc..
 - **Preprocessors** are optional
-- **Use postprocessors**
+- **Using postprocessors is required**
   - JSHint, CSSLint, etc...
-- Optionally use any JavaScript framework of your choice
+
+- **You are NOT allowed to use any full-featured js framework/library**
   - AngularJS
-  - KendoUI
-  - KnockoutJS
+  - Angular
   - React
-  - Or none
+  - etc.
 
 ##  Optional Requirements
 If you have a chance, time and a suitable situation, you might add some of the following to your project:
 -   Backward compatibility (make the application usable on browsers like IE8, IE7 and IE6)
 -   Integration tests
--   Usage of a structural JavaScript framework:
-    -   AngularJS, KendoUI, Knockout.js, Backbone.js, etc...
 
 ##  Non-required Work
 -   Completely finished project is not obligatory required. It will not be a big problem if your project is not completely finished or is not working greatly
@@ -90,3 +88,4 @@ If you have a chance, time and a suitable situation, you might add some of the f
 Each student will have to deliver a public defense of its work to the other students and trainers. You will have 20 minutes for the following:
 -   Demonstrate the application (very shortly)
 -   Show the source code
+-   Answer the questions from the trainers
