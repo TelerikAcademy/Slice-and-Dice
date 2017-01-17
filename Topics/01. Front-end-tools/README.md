@@ -5,7 +5,7 @@
 ## Browsers, Editors, etc..
 
 <div class="signature">
-    <p class="signature-course">Slice and Dice</p>
+    <p class="signature-course">Web front-end development</p>
     <p class="signature-initiative">Telerik Software Academy</p>
     <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
 </div>
@@ -42,6 +42,7 @@
 <!-- # Text Editors
 ##  For front-end development -->
 
+<!-- attr: {showInPresentation: true, style:'font-size:0.9em'} -->
 # Text Editors
 
 - There are many, many text editors for HTML, CSS and JavaScript
@@ -51,6 +52,8 @@
   - Atom.io
   - Microsoft Visual Studio Code
   - ViM
+
+- http://stackoverflow.com/research/developer-survey-2016#technology-development-environments
 
 # Sublime Text 2/3
 
@@ -167,7 +170,7 @@
 
 <!-- attr: {class: 'slide-section', showInPresentation: true} -->
 <!-- # Browsers -->
-## [Demo](http://)
+## Demo
 
 <!-- section start  -->
 
@@ -215,10 +218,23 @@
 
 <!-- attr: {class: 'slide-section', showInPresentation: true} -->
 <!-- # Testing a web app on BrowserStack -->
-##  [Demo](http://)
+##  Demo
 
-<!-- section start  -->
+<!-- section start -->
+<!-- attr: {id: 'questions', class: 'slide-section', hasScriptWrapper:true} -->
+# Questions
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/questions.jpg" style="height:40%; left:30%; top:30 border-radius: 10px;" /> -->
 
-<!-- attr: { class:'slide-section', showInPresentation: true } -->
-<!-- # Front-end tools
-##  Questions -->
+
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+# Free Training @ Telerik Academy
+
+- Web front-end development Course
+  - [Web front-end development](http://telerikacademy.com/Courses/Courses/Details/414)
+- Telerik Software Academy
+  - [telerikacademy.com](https://telerikacademy.com)
+- Telerik Academy @ Facebook
+  - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+- Telerik Academy Learning System
+  - [telerikacademy.com](https://telerikacademy.com)
+

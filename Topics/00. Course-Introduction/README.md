@@ -1,11 +1,11 @@
 <!-- section start -->
 
 <!-- attr: {id: 'title', class: 'slide-title', hasScriptWrapper: true} -->
-# Slice and Dice
+# Web front-end development
 ## Course Introduction
 
 <div class="signature">
-    <p class="signature-course">Slice and Dice</p>
+    <p class="signature-course">Web front-end development</p>
     <p class="signature-initiative">Telerik Software Academy</p>
     <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
 </div>
@@ -16,7 +16,7 @@
 # Table of Contents
 
 - What's Next in the Academy?
-- The **Slice and Dice** Program
+- The **Web front-end development** Program
 - The **Trainers** Team
 - Course **Evaluations**
 - Resources for the Course
@@ -24,31 +24,30 @@
 <!--  section start -->
 
 <!-- attr: { class:'slide-section', id:'coming-next', showInPresentation: true } -->
-<!-- # Slice and Dice
+<!-- # Web front-end development
 ## The Next (Last) Module in the Software Academy -->
 
 <!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 
 # What's Next?
 
-* **Slice and Dice**
-  - Continuation of UX and Photoshop courses
+* **Web front-end development**
+  - Continuation of Front-end track
   - CSS methodologies
   - CSS performance and efficiency
   - Responsive designs, mobile-first, Twitter Bootstrap
-* Lectures **once a week**
-* **Many workshops** -  slice and dice, responsive design, AJAX, SPA apps
+* Lectures **twice a week**
 * The course exam?
   - Course Project
 
 <!--  section start -->
 
 <!-- attr: {class: 'slide-section', id: 'databases-program', showInPresentation: true} -->
-<!-- # Slice and Dice Course Program
+<!-- # Web front-end development Course Program
 ## What Will We Cover in the Course? -->
 
 <!-- attr: {style: 'font-size: 40px'} -->
-# Slice and Dice Course Program
+# Web front-end development Course Program
 
 - HTML:
   - Semantic html, SEO
@@ -57,61 +56,11 @@
   - Efficiency, performance
 - JS:
   - Using third-party APIs
-  - UI frameworks and KendoUI
+  - UI frameworks
 - Responsive Design:
   - Mobile-first
-  - Twitter bootstrap
-- [Detailed program](https://github.com/TelerikAcademy/Slice-and-Dice/blob/master/SCHEDULE.md)
-
-<!--  section start -->
-<!-- attr: {class: 'slide-section', id: 'trainers', showInPresentation: true} -->
-<!-- # The Trainers Team -->
-
-<!-- attr: {style: "font-size:40px", hasScriptWrapper: true} -->
-# Lead Trainer
-
-<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/doncho-minkov.jpg" style="float:right" height="230" />
-
-- **Doncho Minkov**
-  - Senior Technical Trainer @ Telerik Academy
-  - Contestant in the Informatics competitions
-  - Champion from Telerik Software Academy
-  - Experienced with Web and Mobile apps
-  - Proficient with JavaScript and .NET
-  - Front-end developer and trainer since 2011
-  - Contacts:
-    - Email: doncho.minkov [at] telerik.com
-    - Blog: http://minkov.it
-    - GitHub: https://github.com/Minkov
-
-<!-- attr: {style: "font-size:40px", hasScriptWrapper: true} -->
-# The Trainers Team
-
-<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/ivan-zhekov.jpg" style="float:right" height="230" />
-
-- **Ivan Zhekov**
-  - Front-end Architect @ Telerik (Progress)
-  - Doing front-end development since 2003
-  - In-depth knowledge of **HTML** and **CSS**
-  - **JavaScript** Ninja
-  - Delivering presentations since 2011
-  - A **"definitive guide"** for front-end development
-
-<!-- attr: {style: "font-size:40px", hasScriptWrapper: true, showInPresentation: true} -->
-<!-- # The Trainers Team -->
-
-<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/nikolay-kostov.png" style="float:right" height="230" />
-
-- **Nikolay Kostov**
-  - Manager Software Engineering <br/>@ Telerik (Progress)
-  - Microsoft Certified Trainer (MCT)
-  - Champion from Telerik Academy
-  - IT and Informatics competitions winner
-  - Student in Sofia University (Computer Science)
-  - Contacts:
-    - Email: nikolay.kostov [at] telerik.com
-    - Blog: http://nikolay.it
-    - GitHub: https://github.com/NikolayIT
+  - Twitter Bootstrap
+- [Detailed program](https://github.com/TelerikAcademy/Slice-and-Dice)
 
 <!--  section start -->
 
@@ -123,15 +72,12 @@
 # Course Evaluation
 
 -  Course Evaluation
-  - **Practical Project** - up to 75%
-  - **Homework and evaluation** - up to 10%
-  - **Attendance in class** - up 5%
-  - **Forums activity** - up to 5%
-  - **Helping others** - up to 5%
+  - **Practical Project** - up to 80%
+  - **Workshop and homework** - up to 10%
+  - **Attendance in class** - up 10%
 -  Practical Project
   - Develop the front-end of a web application
     - Given a **design in PSD**
-    - Given a **RESTful API**
 
 # Pass / Excellence / Fail Criteria
 
@@ -143,17 +89,6 @@
     - Average total results
   - **Fail**
     - Low total results or low exam results
-
-# Homework Peer Reviews
-
-- Everyone will **get feedback** for their homework
-- Everyone will **give feedback** for few random homework submissions
-  - Students submit homework **anonymously**
-    - Please exclude your name from the submissions!
-  - For each homework submitted
-    - Students **evaluate 3 random homeworks**
-    - From the same topic, after the deadline
-  - Homework comments are **not obligatory**
 
 <!--  section start -->
 
@@ -184,12 +119,10 @@
     - **Linux**, **Mac OS X**, **Windows**, **Android**, etc...
     - Any is good
   - Text Editor:
-    - **Sublime Text 2/3**, **Atom.io**, **ViM**
-    - **Visual Studio Code** is ok
+    - **Visual Studio Code**, **Sublime Text 2/3**, **Atom.io**, **ViM**
   - IDEs
     - **WebStorm**
-    - **Visual Studio** is also ok
-
+    - **Visual Studio** 
 # Required Software
 
 - Browsers:
@@ -202,8 +135,21 @@
   - Linux:
     - **XAMPP**, **Node.js**
 
-<!-- section start  -->
+<!-- section start -->
+<!-- attr: {id: 'questions', class: 'slide-section', hasScriptWrapper:true} -->
+# Questions
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/questions.jpg" style="height:40%; left:30%; top:30 border-radius: 10px;" /> -->
 
-<!-- attr: { class:'slide-section', showInPresentation: true } -->
-<!-- # Introduction to Programming with Java
-##  Questions -->
+
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+# Free Training @ Telerik Academy
+
+- Web front-end development Course
+  - [Web front-end development](http://telerikacademy.com/Courses/Courses/Details/414)
+- Telerik Software Academy
+  - [telerikacademy.com](https://telerikacademy.com)
+- Telerik Academy @ Facebook
+  - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+- Telerik Academy Learning System
+  - [telerikacademy.com](https://telerikacademy.com)
+
