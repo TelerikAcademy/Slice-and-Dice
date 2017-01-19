@@ -223,7 +223,6 @@
 <!-- section start -->
 <!-- attr: {id: 'questions', class: 'slide-section', hasScriptWrapper:true} -->
 # Questions
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/questions.jpg" style="height:40%; left:30%; top:30 border-radius: 10px;" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->

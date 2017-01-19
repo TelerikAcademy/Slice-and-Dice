@@ -1,88 +1,38 @@
-## The **Slice and Dice** course will cover in details the means for producing the front-end of an web application, provided a design in PSD (Photoshop).
+# Web front-end development
 
-The course will follow the curriculum:
+Repository for the course [Web front-end development](http://telerikacademy.com/Courses/Courses/Details/414) at [Telerik Academy](https://telerikacademy.com)
 
+## Course program
 
-##   Course Curriculum
+### [00. Course-Introduction](./Topics/00. Course-Introduction)
 
-###  Course Introduction
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Web-front-end-development/master/Topics/00.%20Course-Introduction/index.html)
 
-   *  Trainers
-   *  Course program
-   *  Materials
-   *  Homeworks
-   *  Examination
+### [01. Front-end-tools](./Topics/01. Front-end-tools)
 
-### Front-end tools
-*  Editors and IDEs
-*  CSS linting
-*  Browsers and Virtual machines
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Web-front-end-development/master/Topics/01.%20Front-end-tools/index.html)
 
-### HTML Semantics
+### [02. HTML Semantics](./Topics/02. HTML Semantics)
 
-###  CSS Recap
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Web-front-end-development/master/Topics/02.%20HTML%20Semantics/index.html)
+### [03. CSS-recap](./Topics/03. CSS-recap)
 
-###  CSS Performance and Efficiency
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Web-front-end-development/master/Topics/03.%20CSS-recap/index.html)
+### [04. CSS-Selector-Efficiency](./Topics/04. CSS-Selector-Efficiency)
 
-   *  Selector efficiency
-   *  Removing unused selectors
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Web-front-end-development/master/Topics/04.%20CSS-Selector-Efficiency/index.html)
+### [05. CSS-Preprocessors](./Topics/05. CSS-Preprocessors)
 
-###  Preprocessors and Postprocessors
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Web-front-end-development/master/Topics/05.%20CSS-Preprocessors/index.html) 
+### [07. Responsive-Design](./Topics/07. Responsive-Design)
 
-### Task Runners
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Web-front-end-development/master/Topics/07.%20Responsive-Design/index.html) 
+### [08. Twitter-Bootstrap](./Topics/08. Twitter-Bootstrap)
 
-   * Grunt
-   * Gulp
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Web-front-end-development/master/Topics/08.%20Twitter-Bootstrap/index.html) 
+### [09. CSS-Methodologies](./Topics/09. CSS-Methodologies)
 
-###  Responsive Web Design
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Web-front-end-development/master/Topics/09.%20CSS-Methodologies/index.html) 
+### [10. Web-Sites-with-XHTML-and-CSS](./Topics/10. Web-Sites-with-XHTML-and-CSS)
 
-###  Mobile-first web design
-
-### Workshop
-
-### Twitter Bootstrap / Foundation by Zurb
-
-
-### CSS Methodologies
-
-   *  BEM
-   *  SMACSS
-   *  OOCSS
-
-### Front-end Architecture / Boostraping a project
-
-   *  Resetting
-   *  Normalizing
-
-
-### Front-end JS Libraries
-
-### Using Third-party APIs
-
-   *   Facebook
-   *   Google
-   *   YouTube
-   *   etc...
-
-### BaaS Cloud
-
-###  Slice and Dice - part 1
-
-   *   Slicing a PSD design to HTML, CSS and JS
-
-###  Slice and Dice - part 2
-
-   *   Slicing a PSD design to HTML, CSS and JS
-
-##   Course Examination
-
-The course examination will consist of developing a front-end web application provided:
-
-   *   A RESTful API
-   *   A design in PSD
-   *   A list of formal requirements
-      *  Using at least one third-party framework
-      *  Using Twitter Bootstrap
-      *  etc...
-   *  Zero csslint errors
-
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Web-front-end-development/master/Topics/10.%20Web-Sites-with-XHTML-and-CSS/index.html) 

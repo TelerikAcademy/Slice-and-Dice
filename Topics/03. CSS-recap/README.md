@@ -5,7 +5,7 @@
 ## Positioning, Layout, Presentation
 
 <div class="signature">
-    <p class="signature-course">Slice and Dice</p>
+    <p class="signature-course">Web front-end development</p>
     <p class="signature-initiative">Telerik Software Academy</p>
     <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
 </div>
