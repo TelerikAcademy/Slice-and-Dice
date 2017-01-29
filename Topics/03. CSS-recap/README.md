@@ -173,7 +173,7 @@ background: #FFF0C0 url("back.gif") no-repeat fixed top;
 
 - `none`: element is hidden and its dimensions are not used to calculate the surrounding elements rendering
     - differs from `visibility: hidden`!
-  - `inline-block`: no breaks are placed before and after (like inline)
+- `inline-block`: no breaks are placed before and after (like inline)
     - `height` and `width` can be applied (like block)
 - `table`, `table-row`, `table-cell`: the elements are arranged in a table-like layout
 - `flexbox`
