@@ -1,0 +1,21 @@
+{
+  "name": "workshop-fe-academy",
+  "description": "Workshop for the Front-end develeopment course - 2017 Jan",
+  "main": "index.js",
+  "authors": [
+    "Telerik Academy"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "kendo-ui": "kendo-ui-core#*"
+  }
+}

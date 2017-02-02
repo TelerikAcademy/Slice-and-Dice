@@ -1,0 +1,536 @@
+﻿/* -----News Section---->> */
+#NewsSection {
+    background-image: url('Images/news-bottom-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+}
+
+    #NewsSection:after {
+        display: block;
+        clear: both;
+        content: "";
+        height: 0;
+        overflow: hidden;
+    }
+
+    #NewsSection > ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        #NewsSection > ul:after {
+            display: block;
+            clear: both;
+            content: "";
+            height: 0;
+            overflow: hidden;
+        }
+
+        #NewsSection > ul > li {
+            float: left;
+            margin-right: 20px;
+        }
+
+            #NewsSection > ul > li > a {
+                display: inline-block;
+                height: 5px;
+                width: 100px;
+            }
+
+    #NewsSection > #NewsText {
+        width: 430px;
+        float: left;
+    }
+
+        #NewsSection > #NewsText > h1 {
+            font-size: 40px;
+            font-weight: normal;
+            margin: 10px 0;
+            color: #444;
+        }
+
+        #NewsSection > #NewsText > p {
+            font-size: 22px;
+            font-weight: normal;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            color: #6d6d6d;
+        }
+
+        #NewsSection > #NewsText > a {
+            text-decoration: none;
+            background-image: url('Images/Backgrounds/news-link-bg.png');
+            background-repeat: repeat-x;
+            color: #fff;
+            font-size: 20px;
+            display: inline-block;
+            padding: 0 25px;
+            line-height: 33px;
+            height: 33px;
+            border-radius: 5px;
+        }
+
+            #NewsSection > #NewsText > a:hover {
+                background-image: url('Images/Backgrounds/news-link-bg -hover.png');
+            }
+
+    #NewsSection > #NewsImage {
+        float: right;
+    }
+
+#NewsLinkFirst {
+    background-color: #f7e0d4;
+    content: "";
+}
+
+#NewsLinkSecond {
+    background-color: #82b517;
+    content: "";
+}
+
+#NewsLinkThird {
+    background-color: #e2d8e6;
+    content: "";
+}
+
+#NewsLinkFourth {
+    background-color: #dbeaf5;
+    content: "";
+}
+
+#NewsLinkFifth {
+    background-color: #ffad82;
+    content: "";
+}
+/* <<-----News Section---- */
+
+/* start of slider */
+#NewsSlider {
+    font-size: 1em;
+    /*background: url('Images/news-bottom-bg.png') bottom center no-repeat;*/
+    padding: 0 10px;
+    margin: 10px 0 10px 0;
+}
+
+    #NewsSlider h1 {
+        font-size: 3em;
+        width: 80%;
+        color: #444444;
+        margin: 20px 0;
+    }
+
+    #NewsSlider p {
+        font-size: 1.6em !important;
+        color: #6d6d6d;
+        width: 55%;
+        margin-bottom: 5px;
+    }
+
+    #NewsSlider a {
+        display: inline-block;
+        color: #FFFFFF !important;
+    }
+
+    #NewsSlider .newsPost {
+        /*background: url('Images/MetodiiNinjas.png') 520px -5px no-repeat; */ /*Metodii ninjas*/
+        /*background:  url('Images/academy_egg.png') 600px 0px no-repeat; */ /*Egg ninja*/
+        background: url('Images/news-img01.png') 580px -10px no-repeat; /*Regular ninja*/
+        position: relative;
+    }
+
+    
+
+    #NewsSlider div.homePageButtons {
+        display: inline-block;
+        width: 74%;
+        margin-bottom: 20px;
+    }
+
+        #NewsSlider div.homePageButtons .generalButtonStyles {
+            margin: 5px 0px 0 0;
+        }
+
+.buttonStyled:hover {
+    text-decoration: none;
+}
+
+/* list of the social icons */
+section#NewsSlider ul#socialIcons {
+    display: inline-block;
+    list-style: none;
+    margin-top: 20px;
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+}
+
+    section#NewsSlider ul#socialIcons li {
+        display: inline-block;
+    }
+
+        section#NewsSlider ul#socialIcons li a {
+            display: inline-block;
+            background: url('/Content/Images/social-sprite-icons.png');
+            width: 37px;
+            height: 35px;
+        }
+/* end of slider */
+
+
+/* -----InnerBlocks---->> */
+#InnerBlocksContainer {
+    width: 998px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 9px;
+}
+
+#InnerBlocsSortableList {
+    list-style-type: none;
+    padding: 0;
+}
+
+    #InnerBlocsSortableList p, #InnerBlocsSortableList span {
+        font-size: 1.3em !important;
+    }
+
+.sortableInnerBlock {
+    float: left;
+}
+
+.innerBlocks {
+    width: 100%;
+    height: 248px;
+    float: left;
+    background-color: #fafafa;
+    color: #000000;
+}
+
+.innerBlocksDouble {
+    width: 625px;
+}
+
+.innerBlocksHeader {
+    height: 32px;
+    background-repeat: repeat-x;
+    font-size: 20px;
+    color: white !important;
+    text-align: center;
+    cursor: default;
+    padding-top: 5px;
+}
+
+.innerBlocks article {
+    margin: 10px 5px;
+    line-height: 185%;
+}
+
+    .innerBlocks article span {
+        display: block;
+        font-size: 1.3em !important;
+    }
+
+    .innerBlocks article p {
+        font-size: 1.3em !important;
+    }
+
+.innerBlocks h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.innerBlocks h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.innerBlocks a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.innerBlocks a:hover {
+    text-decoration: underline;
+}
+/* <-----InnerBlocks---- */
+
+/* -----BlogPostBlocks----> */
+#BlogPostsHeader {
+    background-color: #82b517;
+}
+/* <-----BlogPostBlocks---- */
+
+/* -----RecentVideosBlocks----> */
+#RecentVideoHeader {
+    color: black;
+    background-color: #74b764;
+}
+
+#RecentVideos article {
+    margin-right: 5px;
+}
+
+#RecentVideos img {
+    float: left;
+    width: 75px;
+    height: 56px;
+    margin-right: 10px;
+    border: none;
+}
+
+#RecentVideos .videoDescription {
+    float: left;
+}
+
+    #RecentVideos .videoDescription span {
+        width: 200px;
+    }
+/* <-----RecentVideosBlocks---- */
+
+/* -----ForumPostsBlocks----> */
+#ForumPostsHeader {
+    background-color: #d83c3c;
+    margin-bottom: 5px;
+}
+
+#ForumPosts article {
+    margin: 1px 2px;
+}
+
+    #ForumPosts article span {
+        display: inline-block;
+    }
+
+    #ForumPosts article h3 {
+        display: inline-block;
+    }
+
+    #ForumPosts article h4 {
+        display: inline-block;
+    }
+
+#ForumPosts ul {
+    list-style-type: none;
+}
+
+.forumPostTime {
+    color: #be541c;
+    font-size: 12px !important;
+}
+
+.forumPostQuote {
+    color: #000000;
+}
+
+.forumPostTopic {
+    color: #577516;
+    font-size: 13px !important;
+}
+/* <-----ForumPostsBlocks---- */
+
+/* -----Courses----->> */
+#CoursesHeader {
+    background-color: #5693c7;
+}
+
+#Courses article {
+    height: auto;
+}
+
+    #Courses article a {
+        color: black;
+        margin: 0;
+    }
+
+    #Courses article h3 {
+        margin: 0;
+    }
+
+    #Courses article p {
+        margin: 0;
+    }
+/* <<-----Courses----- */
+
+#Calendar {
+    font-size: 1em !important;
+}
+
+#IndexCalendarHeader {
+    background-color: #ed8537;
+}
+
+#IndexCalendarContainer {
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin: 1px;
+    margin-top: 2px;
+}
+
+/* additional styles */
+.video-item {
+    float: left;
+    text-align: center;
+    width: 217px;
+    margin: 5px !important;
+}
+
+    .video-item:hover img {
+        opacity: 1;
+    }
+
+.forum-posts-container {
+    font-size: 0.8em !important;
+}
+
+#IndexFacebookHeader {
+    background-color: #56c7ab;
+}
+
+.k-widget.k-calendar {
+    width: 100%;
+    height: 100%;
+}
+
+    .k-widget.k-calendar .k-content tbody td,
+    .k-widget.k-calendar .k-content tbody th {
+        width: 14%;
+        text-align: left;
+    }
+
+div.panel {
+    margin-bottom: 0;
+}
+
+.videoBox {
+    height: 213px;
+    overflow: hidden;
+}
+
+    .videoBox:hover img {
+        opacity: 1;
+    }
+
+.panel-body {
+    padding: 10px;
+}
+
+#IndexCalendarContainer td.k-state-hover {
+    background: #b7d768;
+    background-color: #b7d768;
+}
+
+@media(max-width: 768px) {
+    .forumPostListing {
+        margin-bottom: 5px;
+    }
+
+    #NewsSlider .newsPost h1 {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 2.4em;
+    }
+
+    #NewsSlider .newsPost p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    #NewsSlider .newsPost .homePageButtons {
+        width: 100%;
+        text-align: center;
+    }
+
+        #NewsSlider .newsPost .homePageButtons a {
+            width: 90%;
+            margin-bottom: 10px;
+        }
+
+            #NewsSlider .newsPost .homePageButtons a:last-of-type {
+                margin-bottom: 0;
+            }
+
+    .panel-title {
+        text-align: center;
+    }
+
+    .row .panel .panel-body article {
+        padding: 5px 15px;
+        font-size: 1.3em;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+    }
+
+        .row .panel .panel-body article:last-of-type {
+            border-bottom: 0;
+        }
+
+        .row .panel .panel-body article strong {
+            text-align: center;
+        }
+
+        .row .panel .panel-body article > span:first-of-type, .row .panel .panel-body article time {
+            display: block;
+            content: "";
+        }
+
+        #NewsSlider .newsPost{
+            background: none;
+        }
+}
+
+/* Homepage calendar styles */
+#IndexCalendarContainer {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+    #IndexCalendarContainer .k-state-selected {
+        background: none !important;
+    }
+
+    #IndexCalendarContainer .k-state-hover,
+    #IndexCalendarContainer .k-other-month.k-state-hover {
+        background: #DDD !important;
+    }
+
+    #IndexCalendarContainer .calendar-event {
+        padding-left: 5px;
+        background-color: lightgray !important;
+    }
+
+    #IndexCalendarContainer .k-other-month.k-state-hover a {
+        background-image: none !important;
+    }
+
+    #IndexCalendarContainer .calendar-event:hover {
+        background-color: gray !important;
+    }
+
+    #IndexCalendarContainer .k-content .k-link {
+        padding: 0;
+        min-height: 20px;
+    }
+
+    #IndexCalendarContainer .no-event {
+        padding-left: 5px;
+    }
+
+    #IndexCalendarContainer .calendar-event {
+        background-color: #fff;
+        color: #000;
+    }
+
+.k-tooltip-content {
+    font-size: 1.4em;
+}
+/* End of homepage calendar styles */
