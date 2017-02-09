@@ -3,9 +3,9 @@
 # Responsive Design
 ##  The optimal web awesomeness
 <div class="signature">
-    <p class="signature-course">Slice and Dice</p>
+    <p class="signature-course">Web front-end development</p>
     <p class="signature-initiative">Telerik Software Academy</p>
-    <a href = "http://academy.telerik.com " class="signature-link">http://academy.telerik.com </a>
+    <a href = "https://academy.telerik.com " class="signature-link">https://academy.telerik.com </a>
 </div>
 
 
@@ -234,7 +234,18 @@ body{
   * The code becomes too much and very hard to maintain
 
 <!-- section start -->
+<!-- attr: {id: 'questions', class: 'slide-section', hasScriptWrapper:true} -->
+# Questions
 
-<!-- attr: { class: 'slide-questions' } -->
-# Responsive Design and Media Queries
-##  Questions
+
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+# Free Training @ Telerik Academy
+
+- Web front-end development Course
+  - [Web front-end development](http://telerikacademy.com/Courses/Courses/Details/414)
+- Telerik Software Academy
+  - [telerikacademy.com](https://telerikacademy.com)
+- Telerik Academy @ Facebook
+  - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+- Telerik Academy Learning System
+  - [telerikacademy.com](https://telerikacademy.com)

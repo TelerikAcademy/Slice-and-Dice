@@ -5,9 +5,9 @@
 ## Create better and organized CSS
 
 <div class="signature">
-    <p class="signature-course">Slice and Dice</p>
+    <p class="signature-course">Web front-end development</p>
     <p class="signature-initiative">Telerik Software Academy</p>
-    <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
+    <a href="https://academy.telerik.com" class="signature-link">https://academy.telerik.com</a>
 </div>
 
 <!-- section start -->
@@ -58,7 +58,7 @@
 
 <!-- attr: {class: 'slide-section'} -->
 # SMACSS Overview
-##  [Demo](http://)
+##  Demo
 
 
 <!-- section start -->
@@ -81,7 +81,7 @@
 
 <!-- attr: {class: 'slide-section'} -->
 # OOCSS Overview
-##  [Demo](http://)
+##  Demo
 
 <!-- section start -->
 
@@ -103,11 +103,22 @@
 
 <!-- attr: {class: 'slide-section'} -->
 # BEM Overview
-##  [Demo](http://)
+##  Demo
 
 
-<!-- section start  -->
+<!-- section start -->
+<!-- attr: {id: 'questions', class: 'slide-section', hasScriptWrapper:true} -->
+# Questions
 
-<!-- attr: { class:'slide-section', showInPresentation: true } -->
-<!-- # CSS methodologies
-##  Questions -->
+
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+# Free Training @ Telerik Academy
+
+- Web front-end development Course
+  - [Web front-end development](http://telerikacademy.com/Courses/Courses/Details/414)
+- Telerik Software Academy
+  - [telerikacademy.com](https://telerikacademy.com)
+- Telerik Academy @ Facebook
+  - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+- Telerik Academy Learning System
+  - [telerikacademy.com](https://telerikacademy.com)
