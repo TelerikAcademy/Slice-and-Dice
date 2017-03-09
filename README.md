@@ -36,3 +36,4 @@ Repository for the course [Web front-end development](http://telerikacademy.com/
 ### [10. Web-Sites-with-XHTML-and-CSS](./Topics/10. Web-Sites-with-XHTML-and-CSS)
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Slice-and-Dice/master/Topics/10.%20Web-Sites-with-XHTML-and-CSS/index.html) 
+### [11. Slice and Dice - Part 1](./Topics/11. Slice-Dice-Part1)
