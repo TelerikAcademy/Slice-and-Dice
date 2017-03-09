@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  color: #212121;
+  background: #ECEFF1; }
+
+.hidden {
+  display: none !important; }
+
+#login-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: .7; }
+
+#info {
+  width: 90vw;
+  height: 90vh;
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  display: flex;
+  flex-direction: column; }
+  #info > .close {
+    padding: 0;
+    width: 1.25em;
+    height: 1.25em;
+    position: absolute;
+    top: -0.625em;
+    right: -0.625em; }
+
+.main {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto; }

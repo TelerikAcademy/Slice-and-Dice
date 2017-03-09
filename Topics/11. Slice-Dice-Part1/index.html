@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="bootstrap/bootstrap.css" />
+	<link rel="stylesheet" href="styles.css" />
+	<script src="jquery.js"></script>
+</head>
+<body>
+
+
+	<form id="login-form" class="text-center">
+		<h6 class="display-4">Enter user or scan card:</h6>
+		<input type="text" id="userId" />
+	</form>
+
+
+	<div id="info" class="card hidden">
+		<span class="close btn btn-secondary rounded-circle">x</span>
+		<div class="card-header">
+			<ul class="tabs nav nav-tabs card-header-tabs">
+				<li class="nav-item">
+					<a class="nav-link" href="#">General</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Courses</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Performance</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Todo <span class="badge badge-default">3</span></a>
+				</li>
+			</ul>
+		</div>
+		<div class="main card-block">
+			<div class="pane">
+				<h6 class="h1">General</h6>
+			</div>
+			<div class="pane">
+				<h6 class="h1">Courses</h6>
+				<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+						<div class="d-flex w-100 justify-content-between">
+						<h5 class="mb-1">List group item heading</h5>
+						<small>3 days ago</small>
+						</div>
+						<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+						<small>Donec id elit non mi porta.</small>
+					</a>
+					<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+						<div class="d-flex w-100 justify-content-between">
+						<h5 class="mb-1">List group item heading</h5>
+						<small class="text-muted">3 days ago</small>
+						</div>
+						<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+						<small class="text-muted">Donec id elit non mi porta.</small>
+					</a>
+					<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+						<div class="d-flex w-100 justify-content-between">
+						<h5 class="mb-1">List group item heading</h5>
+						<small class="text-muted">3 days ago</small>
+						</div>
+						<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+						<small class="text-muted">Donec id elit non mi porta.</small>
+					</a>
+				</div>
+			</div>
+			<div class="pane">
+				<h6 class="h1">Performance</h6>
+			</div>
+			<div class="pane">
+				<h6 class="h1">Todo</h6>
+				<ul class="list-group">
+					<li class="list-group-item">Unit test interface</li>
+					<li class="list-group-item">Add data</li>
+					<li class="list-group-item">Make it work</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="app.js"></script>
+	<script>app.init()</script>
+</body>
+</html>
