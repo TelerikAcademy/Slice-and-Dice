@@ -1,0 +1,24 @@
+<!-- Modal -->
+<div class="modal fade" id="modal-create-book" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <form id="form-add-book" class="form">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Add new book</h4>
+                </div>
+                <div class="modal-body">
+                    <input name="title" type="text" id="tb-title" class="form-control" placeholder="Enter title" />
+                    <textarea name="description" id="tb-description" rows="5" class="form-control" placeholder="Enter title" /> {{#each model}}
+                    <label>
+                        <input type="checkbox" name="genres" value="{{this}}" />
+                        {{this}}
+                    </label> {{/each}}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Create</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

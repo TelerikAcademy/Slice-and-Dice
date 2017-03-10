@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    
+    link(rel="stylesheet", href="/libs/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/libs/toastr/build/toastr.min.css")
+    link(rel="stylesheet", href="/static/css/main.css")
+
+    script(src="/libs/jquery/dist/jquery.min.js")
+
+    script(src="/libs/bootstrap/dist/js/bootstrap.min.js")
+    script(src="/libs/navigo/lib/navigo.min.js")
+    script(src="/libs/bluebird/js/browser/bluebird.core.min.js")
+
+    script(src="/libs/handlebars/dist/handlebars.min.js")
+
+    script(src="/libs/toastr/build/toastr.min.js")
+
+    title The books app
+body
+    .container
+        .header
+            h1
+                | The Books App
+            .nav
+                nav
+                    ul.list.list-nav
+                        li
+                            | Home
+        .container
+            .row
+                .col-xs-12
+                    #page-placeholder
+    
+    //- utils
+    script(src="/static/js/utils/http.js")
+    script(src="/static/js/utils/templates.js")
+    script(src="/static/js/utils/notifier.js")
+
+    //- UI
+    script(src="/static/js/ui/loader.js")
+    script(src="/static/js/ui/modals.js")
+
+    //- controllers
+    script(src="/static/pages/home/home.js")
+
+    script(src="/static/app.js")
