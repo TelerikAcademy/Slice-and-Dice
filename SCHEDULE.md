@@ -2,7 +2,7 @@
 
 0.  Introduction
     -   **Doncho**
-    -   14 sep    
+    -   14 Sep
 1.  CSS recap
     -   Gradients
     -   Fonts
@@ -17,7 +17,7 @@
     -   18 Sep
 3.  Third-party frameworks
     -   Bootstrap, etc...
-    -   
+    -   **TODO** 
     -   20 Sep
 4.  Methodologies
     -   BEM, OOCSS, etc...
@@ -36,13 +36,13 @@
 7.  Semantic & Accessibility
     -   Visual-impaired, etc...
     -   Meta tags, ...
-    -    
+    -   **TODO** 
     -   28 Sep
 
 ##  Live demos
 
 -   All from the above
-    -   
+    -   **TODO** 
     -   2 Oct
 -   Devices
     -   Not responsive only
@@ -51,5 +51,5 @@
 -   Layouts
     -   Bokeh
     -   Stripe
-    -    
+    -   **TODO** 
     -   5 Oct
