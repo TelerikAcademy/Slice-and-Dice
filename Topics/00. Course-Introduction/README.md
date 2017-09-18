@@ -17,7 +17,6 @@
 
 - What's Next in the Academy?
 - The **Web front-end development** Program
-- The **Trainers** Team
 - Course **Evaluations**
 - Resources for the Course
 
@@ -32,11 +31,11 @@
 # What's Next?
 
 * **Web front-end development**
-  - Continuation of Front-end track
+  - Culmination of Front-end track
   - CSS methodologies
   - CSS performance and efficiency
   - Responsive designs, mobile-first, Twitter Bootstrap
-* Lectures **twice a week**
+* Lectures **thrice a week**
 * The course exam?
   - Course Project
 
@@ -72,8 +71,7 @@
 # Course Evaluation
 
 -  Course Evaluation
-  - **Practical Project** - up to 80%
-  - **Workshop and homework** - up to 10%
+  - **Practical Project** - up to 90%
   - **Attendance in class** - up 10%
 -  Practical Project
   - Develop the front-end of a web application
@@ -122,7 +120,7 @@
     - **Visual Studio Code**, **Sublime Text 2/3**, **Atom.io**, **ViM**
   - IDEs
     - **WebStorm**
-    - **Visual Studio** 
+    - **Visual Studio**
 # Required Software
 
 - Browsers:
@@ -151,4 +149,3 @@
   - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
 - Telerik Academy Learning System
   - [telerikacademy.com](https://telerikacademy.com)
-
