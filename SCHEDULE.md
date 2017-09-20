@@ -44,7 +44,7 @@
 
 ##  Live demos
 
--   Layours
+-   Layouts
     -   **Doncho** 
     -   2 Oct
 -   Devices
