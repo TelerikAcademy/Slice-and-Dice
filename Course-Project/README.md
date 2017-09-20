@@ -27,11 +27,11 @@ It could be a simple game, component library, business application or any other
 
 ##  General Requirements
 Please define and implement the following assets in your project:
-- Slice the given design in PSD (33 points)
+- Slice the given design in PSD (30 points)
   - You can find your selected design [here](PSDs.md)
-- Implement responsive design (34 points)
+- Implement responsive design (30 points)
   - Your web application must look good on any resolution
-- Use a web server (33 points)
+- Use a web server (30 points)
   - Usage of a server (5 points)
     - Telerik back-end services
     - Parse.com
@@ -43,7 +43,10 @@ Please define and implement the following assets in your project:
         - Forum with threads, categories, tags, users, user roles, search, comments, likes, etc...
         - Blog with posts, categories, tags, users, search, comments, likes, etc...
         - Online store with products, categories, prices, filtering, search, etc...
-  **The application must work in the latest versions of the browsers: Google Chrome, Mozilla Firefox, Internet Explorer 10/11, Opera and Apple Safari**
+- Use scripts for build, dev, deployment (10)
+  - Both npm and gulp scripts are fine
+
+**The application must work in the latest versions of the browsers: Google Chrome, Mozilla Firefox, Internet Explorer 10/11, Opera and Apple Safari**
 
 ##  Additional Requirements
 Follow the best practices for producing high-quality code:
