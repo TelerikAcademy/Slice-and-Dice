@@ -2,54 +2,57 @@
 
 0.  Introduction
     -   **Doncho**
-    -   14 Sep
+    -   18 Sep
 1.  CSS recap
     -   Gradients
     -   Fonts
-    -   ?Filters
-    -   ?Vector images
+    -   Filters
+    -   Vector images
     -   **Ivan**
-    -   14 Sep 
+    -   18 Sep 
 2.  Layouts
     -   Floats, positions
     -   Flexboxes, grid
     -   **Ivan**
     -   18 Sep
+3.  Front-end tools
+    -   Gulp
+    -   NPM scripts
+    -   **Doncho**
+    -   20 Sep
 3.  Third-party frameworks
     -   Bootstrap, etc...
-    -   **--TODO--** 
-    -   20 Sep
+    -   **Ivan**
+    -   21 Sep
 4.  Methodologies
     -   BEM, OOCSS, etc...
     -   **Ivan**
     -   21 Sep
-5.  Front-end tools
-    -   Gulp
-    -   NPM scripts
+5.  ...
     -   **Doncho**
     -   25 Sep
 6.  Post/preprocessors
     -   LESS, SASS, STYL, etc...
     -   minifying, transpiling, etc...
-    -   **Alex**
+    -   **Alexander**
     -   27 Sep
 7.  Semantic & Accessibility
     -   Visual-impaired, etc...
     -   Meta tags, ...
-    -   **--TODO--** 
+    -   **Doncho** 
     -   28 Sep
 
 ##  Live demos
 
--   All from the above
-    -   **--TODO--** 
+-   Layours
+    -   **Doncho** 
     -   2 Oct
 -   Devices
     -   Not responsive only
     -   **Ivan** 
     -   4 Oct
--   Layouts
+-   Complete app
     -   Bokeh
     -   Stripe
-    -   **--TODO--** 
+    -   **Doncho** 
     -   5 Oct
